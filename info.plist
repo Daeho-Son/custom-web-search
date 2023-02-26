@@ -3866,7 +3866,7 @@ bash $sh_dir/open.sh "$is_new_window" "$browser" "$site" "$query" "$urls_json"</
 		<key>0301F37F-4C59-4F69-A946-E93690DF3002</key>
 		<dict>
 			<key>xpos</key>
-			<real>1585</real>
+			<real>1580</real>
 			<key>ypos</key>
 			<real>1210</real>
 		</dict>
@@ -3924,7 +3924,7 @@ bash $sh_dir/open.sh "$is_new_window" "$browser" "$site" "$query" "$urls_json"</
 		<key>270400E4-266C-4F23-ADC8-DF39D1282691</key>
 		<dict>
 			<key>xpos</key>
-			<real>1435</real>
+			<real>1440</real>
 			<key>ypos</key>
 			<real>680</real>
 		</dict>
@@ -3952,7 +3952,7 @@ bash $sh_dir/open.sh "$is_new_window" "$browser" "$site" "$query" "$urls_json"</
 		<key>3097B61B-58EB-42EA-B397-0EA4E72143B0</key>
 		<dict>
 			<key>xpos</key>
-			<real>640</real>
+			<real>645</real>
 			<key>ypos</key>
 			<real>680</real>
 		</dict>
@@ -4082,7 +4082,7 @@ bash $sh_dir/open.sh "$is_new_window" "$browser" "$site" "$query" "$urls_json"</
 		<key>59C435FB-5D32-422E-8396-409670E1A591</key>
 		<dict>
 			<key>xpos</key>
-			<real>640</real>
+			<real>645</real>
 			<key>ypos</key>
 			<real>1180</real>
 		</dict>
@@ -4259,7 +4259,7 @@ bash $sh_dir/open.sh "$is_new_window" "$browser" "$site" "$query" "$urls_json"</
 			<key>note</key>
 			<string>BROWSER</string>
 			<key>xpos</key>
-			<real>540</real>
+			<real>545</real>
 			<key>ypos</key>
 			<real>1210</real>
 		</dict>
@@ -4595,7 +4595,7 @@ bash $sh_dir/open.sh "$is_new_window" "$browser" "$site" "$query" "$urls_json"</
 			<key>note</key>
 			<string>BROWSER</string>
 			<key>xpos</key>
-			<real>540</real>
+			<real>545</real>
 			<key>ypos</key>
 			<real>710</real>
 		</dict>
@@ -4629,7 +4629,7 @@ bash $sh_dir/open.sh "$is_new_window" "$browser" "$site" "$query" "$urls_json"</
 			<key>note</key>
 			<string>BROWSER</string>
 			<key>xpos</key>
-			<real>1335</real>
+			<real>1340</real>
 			<key>ypos</key>
 			<real>710</real>
 		</dict>

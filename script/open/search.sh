@@ -22,31 +22,61 @@ if [[ "$?" == "127" ]]; then
 fi
 
 
-# Open option
-if [[ $is_new_window == "0" ]]; then
-	option="-a $browser"
-else
-	option="-na $browser --args --new-window"
-fi
+browser="Google Chrome"
+
+# Error
+# - $browser 로 사용하면 작동X -> "$browser"
+# - $browser 를 다른 변수에 넣어서 사용하면 작동x -> 직접 사용
+# # Open option
+# if [[ $is_new_window == "0" ]]; then
+# 	option="-a $browser"
+# else
+# 	option="-na $browser --args --new-window"
+# fi
 
 
 # URL & Run
-url=$query
-if [[ $query == "" ]]; then
-	open "$option"
-elif [[ $query == *"https://"* ]] || [[ $query == *"http://"* ]]; then
-	open "$option" "$url"
-elif [[ $query == *".co"* ]]; then
-	open "option" https://"$url"
+if [[ $is_new_window == "0" ]]; then
+	if [[ $query == "" ]]; then
+		url=`cat $urls_json | jq ".$site.base"`
+		url=${url%\"}
+		url=${url#\"}
+		open -a "$browser" "$url"
+	elif [[ $query == *"https://"* ]] || [[ $query == *"http://"* ]]; then
+		open -a "$browser" "$query"
+	elif [[ $query == *".co"* ]]; then
+		open -a "$browser" https://"$query"
+	else
+		url=`cat $urls_json | jq ".$site.query"`
+		url=${url%\"}
+		url=${url#\"}
+
+		while [[ $url == *'$query'* ]]
+		do
+			url=${url/'$query'/$query}
+		done
+
+		open -a "$browser" "$url"
+	fi 
 else
-	url=`cat $urls_json | jq ".$site.query"`
-	url=${url%\"}
-	url=${url#\"}
+	if [[ $query == "" ]]; then
+		url=`cat $urls_json | jq ".$site.base"`
+		open -na "$browser"
+	elif [[ $query == *"https://"* ]] || [[ $query == *"http://"* ]]; then
+		open -na "$browser" --args --new-window "$query"
+	elif [[ $query == *".co"* ]]; then
+		open -na "$browser" --args --new-window https://"$query"
+	else
+		url=`cat $urls_json | jq ".$site.query"`
+		url=${url%\"}
+		url=${url#\"}
 
-	while [[ $url == *'$query'* ]]
-	do
-		url=${url/'$query'/$query}
-	done
+		while [[ $url == *'$query'* ]]
+		do
+			url=${url/'$query'/$query}
+		done
 
-	open "$option" "$url"
-fi 
+		open -na "$browser" --args --new-window "$url"
+	fi 
+
+fi
