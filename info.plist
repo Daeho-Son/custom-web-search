@@ -2751,7 +2751,7 @@ bash $sh_dir/search.sh "$is_new_window" "$browser" "$site" "$query" "$urls_json"
 				<key>argumenttype</key>
 				<integer>1</integer>
 				<key>keyword</key>
-				<string>intra.42</string>
+				<string>intra42</string>
 				<key>subtext</key>
 				<string></string>
 				<key>text</key>
@@ -2857,7 +2857,7 @@ bash $sh_dir/search.sh "$is_new_window" "$browser" "$site" "$query" "$urls_json"
 				<key>variables</key>
 				<dict>
 					<key>site</key>
-					<string>intra_42</string>
+					<string>intra42</string>
 				</dict>
 			</dict>
 			<key>type</key>

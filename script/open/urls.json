@@ -59,7 +59,7 @@
 		"base":"https://duckduckgo.com/",
 		"query":"https://duckduckgo.com/?sites=cppreference.com&q=$query"
 	},
-	"42intra":
+	"intra42":
 	{
 		"base":"https://profile.intra.42.fr/",
 		"query":"https://profile.intra.42.fr/users/$query"
