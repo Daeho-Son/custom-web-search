@@ -16,67 +16,44 @@ if [[ "$?" == "127" ]]; then
 	if [[ "$OS"  == "Darwin" ]]; then
 		brew install jq
 	else
-		echo "jq 라이브러리를 설치해주세요"
+		echo "Exit: jq 라이브러리를 설치해주세요"
 		exit
 	fi
 fi
 
-
-browser="Google Chrome"
-
 # Error
 # - $browser 로 사용하면 작동X -> "$browser"
 # - $browser 를 다른 변수에 넣어서 사용하면 작동x -> 직접 사용
-# # Open option
-# if [[ $is_new_window == "0" ]]; then
-# 	option="-a $browser"
-# else
-# 	option="-na $browser --args --new-window"
-# fi
 
-
-# URL & Run
-if [[ $is_new_window == "0" ]]; then
-	if [[ $query == "" ]]; then
-		url=`cat $urls_json | jq ".$site.base"`
-		url=${url%\"}
-		url=${url#\"}
-		open -a "$browser" "$url"
-	elif [[ $query == *"https://"* ]] || [[ $query == *"http://"* ]]; then
-		open -a "$browser" "$query"
-	elif [[ $query == *".co"* ]]; then
-		open -a "$browser" https://"$query"
-	else
-		url=`cat $urls_json | jq ".$site.query"`
-		url=${url%\"}
-		url=${url#\"}
-
-		while [[ $url == *'$query'* ]]
-		do
-			url=${url/'$query'/$query}
-		done
-
-		open -a "$browser" "$url"
-	fi 
-else
-	if [[ $query == "" ]]; then
-		url=`cat $urls_json | jq ".$site.base"`
-		open -na "$browser"
-	elif [[ $query == *"https://"* ]] || [[ $query == *"http://"* ]]; then
-		open -na "$browser" --args --new-window "$query"
-	elif [[ $query == *".co"* ]]; then
-		open -na "$browser" --args --new-window https://"$query"
-	else
-		url=`cat $urls_json | jq ".$site.query"`
-		url=${url%\"}
-		url=${url#\"}
-
-		while [[ $url == *'$query'* ]]
-		do
-			url=${url/'$query'/$query}
-		done
-
-		open -na "$browser" --args --new-window "$url"
-	fi 
-
+window_option=""
+open_option="-a"
+if [[ $is_new_window == "1" ]]; then
+	window_option="--args --new-window"
+	open_option="-na"
 fi
+
+if [[ $query == "" ]]; then
+	echo "1"
+	echo $open_option "$browser" $window_option "https://google.com"
+	open $open_option "$browser" $window_option "https://google.com"
+elif [[ $query == "https://"* ]] || [[ $query == "http://"* ]]; then
+	echo "2"
+	echo $open_option "$browser" $window_option "$query"
+	open $open_option "$browser" $window_option "$query"
+elif [[ $query == *".co"* ]] || [[ $query == *".net"* ]] || [[ $query == *".kr"* ]]; then
+	echo "3"
+	echo $open_option "$browser" $window_option https://"$query"
+	open $open_option "$browser" $window_option https://"$query"
+else
+	echo "4"
+	url=`cat $urls_json | jq ".$site.query"`
+	url=${url%\"}
+	url=${url#\"}
+
+	while [[ $url == *'$query'* ]]
+	do
+		url=${url/'$query'/$query}
+	done
+	echo $open_option "$browser" $window_option "$url"
+	open $open_option "$browser" $window_option "$url"
+fi 
