@@ -67,10 +67,6 @@
     "base": "https://developer.mozilla.org/",
     "query": "https://developer.mozilla.org/en-US/search?q={query}"
   },
-  "docker_hub": {
-    "base": "https://hub.docker.com/",
-    "query": "https://hub.docker.com/search?q={query}"
-  },
   "mdn_http_Status": {
     "base": "https://developer.mozilla.org/ko/docs/Web/HTTP/Status",
     "query": "https://developer.mozilla.org/ko/docs/Web/HTTP/Status/{query}"
@@ -103,9 +99,13 @@
     "base": "https://www.teamblind.com",
     "query": "https://www.teamblind.com/kr/search/{query}"
   },
-  "boj": {
+  "boj_user": {
     "base": "https://www.acmicpc.net",
     "query": "https://www.acmicpc.net/user/{query}"
+  },
+  "boj_problem": {
+    "base": "https://www.acmicpc.net",
+    "query": "https://www.acmicpc.net/problem/{query}"
   },
   "solved": {
     "base": "https://solved.ac",
@@ -114,10 +114,6 @@
   "java_docs": {
     "base": "https://docs.oracle.com/en/java/javase/index.html",
     "query": "https://docs.oracle.com/en/java/javase/index.html"
-  },
-  "docker_docs": {
-    "base": "https://docs.docker.com/reference",
-    "query": "https://docs.docker.com/reference"
   },
   "inflearn_roadmap": {
     "base": "https://www.inflearn.com/user/roadmaps",
@@ -150,5 +146,33 @@
   "ibm": {
     "base": "https://www.ibm.com",
     "query": "https://www.ibm.com/docs/ko/search/{query}"
+  },
+  "linkedin":{
+	  "base":"https://www.linkedin.com",
+	  "query":"https://www.linkedin.com/search/results/all/?keywords={query}"
+  },
+  "docker_hub": {
+    "base": "https://hub.docker.com/",
+    "query": "https://hub.docker.com/search?q={query}"
+  },
+  "docs_docker": {
+    "base": "https://docs.docker.com/reference",
+    "query": "https://docs.docker.com/reference"
+  },
+  "docs_python": {
+	  "base":"https://docs.python.org/ko/3",
+	  "query":"https://docs.python.org/ko/3/search.html?q={query}"
+  },
+  "health": {
+	  "base":"https://www.health.kr/main.asp",
+	  "query":"https://www.health.kr/main.asp"
+  },
+  "rocketpunch": {
+	  "base":"https://www.rocketpunch.com",
+	  "query":"https://www.rocketpunch.com/search?keywords={query}"
+  },
+  "programmers_lessons": {
+	  "base":"https://programmers.co.kr/",
+	  "query":"https://school.programmers.co.kr/learn/courses/30/lessons/{query}"
   }
 }
