@@ -41,7 +41,7 @@ if [[ $query == "" ]]; then
 	url="https://google.com"
 elif [[ $query == "https://"* ]] || [[ $query == "http://"* ]]; then
 	url="$query"
-elif [[ $query == *".co"* ]] || [[ $query == *".net"* ]] || [[ $query == *".kr"* ]]; then
+elif [[ $query == *".io" ]] || [[ $query == *".com" ]]  || [[ $query == *".co" ]] || [[ $query == *".net" ]] || [[ $query == *".kr" ]]; then
 	url="https://$query"
 else
 	url=`cat $urls_json | jq ".$site.query"`
