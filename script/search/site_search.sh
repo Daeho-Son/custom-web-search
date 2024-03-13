@@ -53,7 +53,7 @@ echo "$query" > ./debug/5_parsed_query.txt
 
 
 # url에 있는 {query}를 qurl
-url=$(echo $url | sed "s/{query}/"$query"/g")
+url=$(echo $url | sed "s/{query}/${query}/g")
 echo $url > ./debug/6_url.txt
 
 
