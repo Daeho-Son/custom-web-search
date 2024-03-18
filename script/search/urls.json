@@ -174,5 +174,9 @@
   "programmers_lessons": {
 	  "base":"https://programmers.co.kr/",
 	  "query":"https://school.programmers.co.kr/learn/courses/30/lessons/{query}"
+  },
+  "innoforest": {
+	  "base":"https://www.innoforest.co.kr",
+	  "query":"https://www.innoforest.co.kr/search?keyword={query}"
   }
 }
