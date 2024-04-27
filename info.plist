@@ -80,6 +80,19 @@
 				<false/>
 			</dict>
 		</array>
+		<key>09984572-1FC2-435D-8EC7-CF673B4E78D9</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>B3CEC46D-3DF6-4ABA-B375-89E233271A9C</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
 		<key>0A8E36B2-7C8B-46F4-9026-496165F033F4</key>
 		<array>
 			<dict>
@@ -99,19 +112,6 @@
 				<integer>1048576</integer>
 				<key>modifiersubtext</key>
 				<string>Open new window</string>
-				<key>vitoclose</key>
-				<false/>
-			</dict>
-		</array>
-		<key>0B9A1F70-D5CB-42EF-B4E8-B63B560508F8</key>
-		<array>
-			<dict>
-				<key>destinationuid</key>
-				<string>8334BABE-15F3-499F-BFA7-AA9B94830D26</string>
-				<key>modifiers</key>
-				<integer>0</integer>
-				<key>modifiersubtext</key>
-				<string></string>
 				<key>vitoclose</key>
 				<false/>
 			</dict>
@@ -184,6 +184,19 @@
 				<integer>1048576</integer>
 				<key>modifiersubtext</key>
 				<string>Open/Search new window</string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>0DD207CA-769A-4D15-8B50-0494BC231879</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>A750B834-5461-4D83-9C19-B072D8F9558C</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
 				<key>vitoclose</key>
 				<false/>
 			</dict>
@@ -531,6 +544,19 @@
 				<false/>
 			</dict>
 		</array>
+		<key>1EE2B23B-D079-4623-A859-09C7036B5835</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>B3CEC46D-3DF6-4ABA-B375-89E233271A9C</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
 		<key>1F72E8DD-293E-4C67-ADCF-3F6CB33867A0</key>
 		<array>
 			<dict>
@@ -576,6 +602,19 @@
 				<integer>1048576</integer>
 				<key>modifiersubtext</key>
 				<string>Open new window</string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>20B33578-5060-4D8A-93A3-AE2396385667</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>1EE2B23B-D079-4623-A859-09C7036B5835</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
 				<key>vitoclose</key>
 				<false/>
 			</dict>
@@ -642,11 +681,37 @@
 				<false/>
 			</dict>
 		</array>
+		<key>2954AE3A-59FB-4B60-927E-67A59988A53A</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>6926AED1-CA4D-4805-B960-CFB6283F70C9</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
 		<key>29E73E84-1A5D-4107-B1BC-4DEB3BC2479B</key>
 		<array>
 			<dict>
 				<key>destinationuid</key>
 				<string>A4B08E1C-BD5D-4B30-BBCC-A13EE7B6EF15</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>2A84069D-22FD-430F-97F2-BB305EC098FF</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>09984572-1FC2-435D-8EC7-CF673B4E78D9</string>
 				<key>modifiers</key>
 				<integer>0</integer>
 				<key>modifiersubtext</key>
@@ -706,6 +771,29 @@
 			<dict>
 				<key>destinationuid</key>
 				<string>9C02F4A8-8D2F-4E8F-81DB-1D4338A9CAB4</string>
+				<key>modifiers</key>
+				<integer>1048576</integer>
+				<key>modifiersubtext</key>
+				<string>Open new window</string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>2F09BD89-FCAD-4D4D-9AA5-7455C2C1FC3A</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>70759D64-6E75-4916-9FAD-DC2C39700002</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+			<dict>
+				<key>destinationuid</key>
+				<string>5ECF5A68-90E0-42E4-98EF-91637DC53DC8</string>
 				<key>modifiers</key>
 				<integer>1048576</integer>
 				<key>modifiersubtext</key>
@@ -848,6 +936,29 @@
 				<false/>
 			</dict>
 		</array>
+		<key>35C2F5C9-876C-483F-8699-D877B332F748</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>0DD207CA-769A-4D15-8B50-0494BC231879</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+			<dict>
+				<key>destinationuid</key>
+				<string>EAAB7872-398C-4451-9263-9063ECB783A5</string>
+				<key>modifiers</key>
+				<integer>1048576</integer>
+				<key>modifiersubtext</key>
+				<string>Open new window</string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
 		<key>36C47A94-87B6-46CC-A74B-10E69552CF83</key>
 		<array>
 			<dict>
@@ -870,6 +981,29 @@
 				<integer>0</integer>
 				<key>modifiersubtext</key>
 				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>376FA8F8-DBC6-42AB-9A94-32A131D343FB</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>B4BE598C-6BDE-475C-8158-774B3E9CF35E</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+			<dict>
+				<key>destinationuid</key>
+				<string>DC2240EA-9E59-42F4-9C35-AFD098BE0516</string>
+				<key>modifiers</key>
+				<integer>1048576</integer>
+				<key>modifiersubtext</key>
+				<string>Open new window</string>
 				<key>vitoclose</key>
 				<false/>
 			</dict>
@@ -1268,6 +1402,19 @@
 				<false/>
 			</dict>
 		</array>
+		<key>560807A1-0A98-48D1-A844-214205087406</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>93F72A0B-17BF-4FA9-819E-4F3FDD52B4F3</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
 		<key>567E8077-CD87-427F-8A71-5D7E57027B21</key>
 		<array>
 			<dict>
@@ -1503,6 +1650,19 @@
 				<false/>
 			</dict>
 		</array>
+		<key>5ECF5A68-90E0-42E4-98EF-91637DC53DC8</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>969FAEC5-937F-49CB-94C3-4E739D8E9C53</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
 		<key>5FC4D5A8-3C99-4976-B046-9FE8E859491B</key>
 		<array>
 			<dict>
@@ -1718,6 +1878,19 @@
 				<false/>
 			</dict>
 		</array>
+		<key>70759D64-6E75-4916-9FAD-DC2C39700002</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>969FAEC5-937F-49CB-94C3-4E739D8E9C53</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
 		<key>710409ED-1266-417A-9710-33D3EAAA6C1B</key>
 		<array>
 			<dict>
@@ -1897,6 +2070,42 @@
 				<integer>1048576</integer>
 				<key>modifiersubtext</key>
 				<string>Open new window</string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>7B29DA04-5E16-4BFB-AE3F-797ECAC6EC3A</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>2A84069D-22FD-430F-97F2-BB305EC098FF</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+			<dict>
+				<key>destinationuid</key>
+				<string>E27CCECC-75EE-40BF-B100-CF124224F6D2</string>
+				<key>modifiers</key>
+				<integer>1048576</integer>
+				<key>modifiersubtext</key>
+				<string>Open new window</string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>7BA725DA-D37D-4315-AFF4-75E70DF1A3E7</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>1EE2B23B-D079-4623-A859-09C7036B5835</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
 				<key>vitoclose</key>
 				<false/>
 			</dict>
@@ -2295,6 +2504,19 @@
 				<false/>
 			</dict>
 		</array>
+		<key>969FAEC5-937F-49CB-94C3-4E739D8E9C53</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>93F72A0B-17BF-4FA9-819E-4F3FDD52B4F3</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
 		<key>9952B0FC-CB0B-47EB-AAE8-2023D2240480</key>
 		<array>
 			<dict>
@@ -2484,6 +2706,19 @@
 				<false/>
 			</dict>
 		</array>
+		<key>A750B834-5461-4D83-9C19-B072D8F9558C</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>B3CEC46D-3DF6-4ABA-B375-89E233271A9C</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
 		<key>A88210B4-0E5C-4459-B1F6-B0FDD66FF35E</key>
 		<array>
 			<dict>
@@ -2642,6 +2877,19 @@
 			<dict>
 				<key>destinationuid</key>
 				<string>0487993D-930E-4DC9-8E47-066D78048C7A</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>B4BE598C-6BDE-475C-8158-774B3E9CF35E</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>560807A1-0A98-48D1-A844-214205087406</string>
 				<key>modifiers</key>
 				<integer>0</integer>
 				<key>modifiersubtext</key>
@@ -2826,6 +3074,29 @@
 				<false/>
 			</dict>
 		</array>
+		<key>C1860950-49BA-41A9-BA58-0BD9EDF39DF1</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>7BA725DA-D37D-4315-AFF4-75E70DF1A3E7</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+			<dict>
+				<key>destinationuid</key>
+				<string>20B33578-5060-4D8A-93A3-AE2396385667</string>
+				<key>modifiers</key>
+				<integer>1048576</integer>
+				<key>modifiersubtext</key>
+				<string>Open new window</string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
 		<key>C424F484-7326-45E6-BE3B-4B6F444F5059</key>
 		<array>
 			<dict>
@@ -2833,6 +3104,29 @@
 				<string>93F72A0B-17BF-4FA9-819E-4F3FDD52B4F3</string>
 				<key>modifiers</key>
 				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>C52D8982-EF2B-47B9-8DBE-3333CB593C79</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>E2237063-700B-4B1A-B519-B531ED54B44F</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+			<dict>
+				<key>destinationuid</key>
+				<string>8334BABE-15F3-499F-BFA7-AA9B94830D26</string>
+				<key>modifiers</key>
+				<integer>1048576</integer>
 				<key>modifiersubtext</key>
 				<string></string>
 				<key>vitoclose</key>
@@ -3103,6 +3397,19 @@
 				<false/>
 			</dict>
 		</array>
+		<key>DC2240EA-9E59-42F4-9C35-AFD098BE0516</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>560807A1-0A98-48D1-A844-214205087406</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
 		<key>DC27FEFF-F64B-4170-BD7B-09999AA6A255</key>
 		<array>
 			<dict>
@@ -3289,6 +3596,19 @@
 				<false/>
 			</dict>
 		</array>
+		<key>E27CCECC-75EE-40BF-B100-CF124224F6D2</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>09984572-1FC2-435D-8EC7-CF673B4E78D9</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
 		<key>E35383F8-E9F1-4456-B86C-52C8F9815407</key>
 		<array>
 			<dict>
@@ -3436,6 +3756,19 @@
 				<false/>
 			</dict>
 		</array>
+		<key>EAAB7872-398C-4451-9263-9063ECB783A5</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>A750B834-5461-4D83-9C19-B072D8F9558C</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
 		<key>EB72A0F7-B8AE-4F35-B0FE-4BB6734CB8FA</key>
 		<array>
 			<dict>
@@ -3468,6 +3801,19 @@
 				<integer>1048576</integer>
 				<key>modifiersubtext</key>
 				<string>Open new window</string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>EC34AD7C-6F00-41B5-9878-2DA235AEA5AD</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>6AD7857A-5C2B-48BD-B60A-1BD5EFAEC3FA</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
 				<key>vitoclose</key>
 				<false/>
 			</dict>
@@ -3731,6 +4077,30 @@
 		<dict>
 			<key>config</key>
 			<dict>
+				<key>concurrently</key>
+				<false/>
+				<key>escaping</key>
+				<integer>102</integer>
+				<key>script</key>
+				<string>cd ./script/search/
+cat ./urls.json | jq '.{query}.query'</string>
+				<key>scriptargtype</key>
+				<integer>1</integer>
+				<key>scriptfile</key>
+				<string></string>
+				<key>type</key>
+				<integer>11</integer>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.script</string>
+			<key>uid</key>
+			<string>E2237063-700B-4B1A-B519-B531ED54B44F</string>
+			<key>version</key>
+			<integer>2</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
 				<key>argumenttype</key>
 				<integer>0</integer>
 				<key>keyword</key>
@@ -3745,7 +4115,7 @@
 			<key>type</key>
 			<string>alfred.workflow.input.keyword</string>
 			<key>uid</key>
-			<string>0B9A1F70-D5CB-42EF-B4E8-B63B560508F8</string>
+			<string>C52D8982-EF2B-47B9-8DBE-3333CB593C79</string>
 			<key>version</key>
 			<integer>1</integer>
 		</dict>
@@ -3757,10 +4127,10 @@
 				<key>escaping</key>
 				<integer>102</integer>
 				<key>script</key>
-				<string>cd ./script/open
-bash ./utils/input_to_syllables.sh $1</string>
+				<string>cd ./script/search/
+cat ./urls.json | jq '.{query}.base'</string>
 				<key>scriptargtype</key>
-				<integer>1</integer>
+				<integer>0</integer>
 				<key>scriptfile</key>
 				<string></string>
 				<key>type</key>
@@ -3789,185 +4159,6 @@ bash ./utils/input_to_syllables.sh $1</string>
 			<string>00AB4548-4A66-45D8-B6F5-8CE54C1FF4F0</string>
 			<key>version</key>
 			<integer>1</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
-				<key>anchorfields</key>
-				<true/>
-				<key>argumenttrimmode</key>
-				<integer>0</integer>
-				<key>argumenttype</key>
-				<integer>0</integer>
-				<key>daterange</key>
-				<integer>0</integer>
-				<key>fields</key>
-				<array>
-					<dict>
-						<key>field</key>
-						<string>kMDItemDisplayName</string>
-						<key>not</key>
-						<false/>
-						<key>split</key>
-						<true/>
-						<key>value</key>
-						<string>{query}</string>
-						<key>words</key>
-						<true/>
-					</dict>
-					<dict>
-						<key>field</key>
-						<string>kMDItemAlternateNames</string>
-						<key>not</key>
-						<false/>
-						<key>split</key>
-						<true/>
-						<key>value</key>
-						<string>{query}</string>
-						<key>words</key>
-						<true/>
-					</dict>
-					<dict>
-						<key>field</key>
-						<string>kMDItemFinderComment</string>
-						<key>not</key>
-						<false/>
-						<key>split</key>
-						<true/>
-						<key>value</key>
-						<string>{query}</string>
-						<key>words</key>
-						<true/>
-					</dict>
-				</array>
-				<key>includesystem</key>
-				<false/>
-				<key>limit</key>
-				<integer>0</integer>
-				<key>runningsubtext</key>
-				<string></string>
-				<key>scopes</key>
-				<array/>
-				<key>sortmode</key>
-				<integer>0</integer>
-				<key>subtext</key>
-				<string></string>
-				<key>title</key>
-				<string></string>
-				<key>types</key>
-				<array/>
-				<key>withspace</key>
-				<true/>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.input.filefilter</string>
-			<key>uid</key>
-			<string>A4BF90D6-A4EC-4A1D-AE0A-91AE02E04273</string>
-			<key>version</key>
-			<integer>2</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
-				<key>argumenttype</key>
-				<integer>0</integer>
-				<key>keyword</key>
-				<string></string>
-				<key>outputprefix</key>
-				<string></string>
-				<key>outputtype</key>
-				<integer>0</integer>
-				<key>subtext</key>
-				<string></string>
-				<key>title</key>
-				<string></string>
-				<key>withspace</key>
-				<true/>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.input.runningappsfilter</string>
-			<key>uid</key>
-			<string>F577F80A-C429-48B1-B59C-A4FDCFB93875</string>
-			<key>version</key>
-			<integer>1</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
-				<key>argumenttrimmode</key>
-				<integer>0</integer>
-				<key>argumenttype</key>
-				<integer>0</integer>
-				<key>fixedorder</key>
-				<false/>
-				<key>items</key>
-				<string>[]</string>
-				<key>matchmode</key>
-				<integer>0</integer>
-				<key>runningsubtext</key>
-				<string></string>
-				<key>subtext</key>
-				<string></string>
-				<key>title</key>
-				<string></string>
-				<key>withspace</key>
-				<true/>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.input.listfilter</string>
-			<key>uid</key>
-			<string>417476C9-C197-445B-B9E4-75C84BB3D796</string>
-			<key>version</key>
-			<integer>1</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
-				<key>alfredfiltersresults</key>
-				<false/>
-				<key>alfredfiltersresultsmatchmode</key>
-				<integer>0</integer>
-				<key>argumenttreatemptyqueryasnil</key>
-				<true/>
-				<key>argumenttrimmode</key>
-				<integer>0</integer>
-				<key>argumenttype</key>
-				<integer>0</integer>
-				<key>escaping</key>
-				<integer>102</integer>
-				<key>queuedelaycustom</key>
-				<integer>3</integer>
-				<key>queuedelayimmediatelyinitially</key>
-				<true/>
-				<key>queuedelaymode</key>
-				<integer>0</integer>
-				<key>queuemode</key>
-				<integer>1</integer>
-				<key>runningsubtext</key>
-				<string></string>
-				<key>script</key>
-				<string>query=$1
-
-echo -n $query</string>
-				<key>scriptargtype</key>
-				<integer>1</integer>
-				<key>scriptfile</key>
-				<string></string>
-				<key>subtext</key>
-				<string></string>
-				<key>title</key>
-				<string></string>
-				<key>type</key>
-				<integer>11</integer>
-				<key>withspace</key>
-				<true/>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.input.scriptfilter</string>
-			<key>uid</key>
-			<string>F01FC553-C2FB-46F9-A037-72FF833DDFF0</string>
-			<key>version</key>
-			<integer>3</integer>
 		</dict>
 		<dict>
 			<key>config</key>
@@ -4017,18 +4208,39 @@ echo -n $query</string>
 				<key>argumenttype</key>
 				<integer>2</integer>
 				<key>keyword</key>
-				<string>gpt</string>
+				<string>tistory</string>
 				<key>subtext</key>
 				<string></string>
 				<key>text</key>
-				<string>Open ChatGPT in Whale</string>
+				<string>Open My Tistory in Whale</string>
 				<key>withspace</key>
 				<false/>
 			</dict>
 			<key>type</key>
 			<string>alfred.workflow.input.keyword</string>
 			<key>uid</key>
-			<string>A5EF3BDC-1734-4207-B4C2-7C768D83D978</string>
+			<string>EC34AD7C-6F00-41B5-9878-2DA235AEA5AD</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argumenttype</key>
+				<integer>2</integer>
+				<key>keyword</key>
+				<string>tistory</string>
+				<key>subtext</key>
+				<string></string>
+				<key>text</key>
+				<string>Open My Tistory in Chrome</string>
+				<key>withspace</key>
+				<false/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.keyword</string>
+			<key>uid</key>
+			<string>2954AE3A-59FB-4B60-927E-67A59988A53A</string>
 			<key>version</key>
 			<integer>1</integer>
 		</dict>
@@ -4044,12 +4256,33 @@ echo -n $query</string>
 				<key>spaces</key>
 				<string></string>
 				<key>url</key>
-				<string>https://chat.openai.com/chat</string>
+				<string>https://sondho.tistory.com/</string>
 			</dict>
 			<key>type</key>
 			<string>alfred.workflow.action.openurl</string>
 			<key>uid</key>
-			<string>622064D6-5EAB-404F-8969-B9E1967433BA</string>
+			<string>6AD7857A-5C2B-48BD-B60A-1BD5EFAEC3FA</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>browser</key>
+				<string>com.google.Chrome</string>
+				<key>skipqueryencode</key>
+				<false/>
+				<key>skipvarencode</key>
+				<false/>
+				<key>spaces</key>
+				<string></string>
+				<key>url</key>
+				<string>https://sondho.tistory.com/</string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.openurl</string>
+			<key>uid</key>
+			<string>6926AED1-CA4D-4805-B960-CFB6283F70C9</string>
 			<key>version</key>
 			<integer>1</integer>
 		</dict>
@@ -4063,7 +4296,7 @@ echo -n $query</string>
 				<key>subtext</key>
 				<string></string>
 				<key>text</key>
-				<string>Open Github in Chrome</string>
+				<string>Open My Github in Chrome</string>
 				<key>withspace</key>
 				<false/>
 			</dict>
@@ -4116,6 +4349,48 @@ open -a "Google Chrome" "chrome://history"</string>
 			<string>alfred.workflow.action.openurl</string>
 			<key>uid</key>
 			<string>1138106B-8AB7-4AFE-A7C5-9356AE2DD02B</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argumenttype</key>
+				<integer>2</integer>
+				<key>keyword</key>
+				<string>gpt</string>
+				<key>subtext</key>
+				<string></string>
+				<key>text</key>
+				<string>Open ChatGPT in Whale</string>
+				<key>withspace</key>
+				<false/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.keyword</string>
+			<key>uid</key>
+			<string>A5EF3BDC-1734-4207-B4C2-7C768D83D978</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>browser</key>
+				<string>com.naver.Whale</string>
+				<key>skipqueryencode</key>
+				<false/>
+				<key>skipvarencode</key>
+				<false/>
+				<key>spaces</key>
+				<string></string>
+				<key>url</key>
+				<string>https://chat.openai.com/chat</string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.openurl</string>
+			<key>uid</key>
+			<string>622064D6-5EAB-404F-8969-B9E1967433BA</string>
 			<key>version</key>
 			<integer>1</integer>
 		</dict>
@@ -5090,7 +5365,7 @@ bash ./site_search.sh "$is_new_window" "$browser" "$site" "$1" "./urls.json"</st
 				<key>variables</key>
 				<dict>
 					<key>site</key>
-					<string>reference</string>
+					<string>docs_programmers</string>
 				</dict>
 			</dict>
 			<key>type</key>
@@ -5728,7 +6003,7 @@ bash ./site_search.sh "$is_new_window" "$browser" "$site" "$1" "./urls.json"</st
 			<key>config</key>
 			<dict>
 				<key>argumenttype</key>
-				<integer>2</integer>
+				<integer>1</integer>
 				<key>keyword</key>
 				<string>docs java</string>
 				<key>subtext</key>
@@ -5736,7 +6011,7 @@ bash ./site_search.sh "$is_new_window" "$browser" "$site" "$1" "./urls.json"</st
 				<key>text</key>
 				<string>Open Java Documentation in Chrome</string>
 				<key>withspace</key>
-				<false/>
+				<true/>
 			</dict>
 			<key>type</key>
 			<string>alfred.workflow.input.keyword</string>
@@ -5836,7 +6111,7 @@ bash ./site_search.sh "$is_new_window" "$browser" "$site" "$1" "./urls.json"</st
 				<key>variables</key>
 				<dict>
 					<key>site</key>
-					<string>java_docs</string>
+					<string>docs_java</string>
 				</dict>
 			</dict>
 			<key>type</key>
@@ -6415,6 +6690,26 @@ bash ./site_search.sh "$is_new_window" "$browser" "$site" "$1" "./urls.json"</st
 		<dict>
 			<key>config</key>
 			<dict>
+				<key>argument</key>
+				<string>{query}</string>
+				<key>passthroughargument</key>
+				<false/>
+				<key>variables</key>
+				<dict>
+					<key>is_new_window</key>
+					<string>0</string>
+				</dict>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.utility.argument</string>
+			<key>uid</key>
+			<string>0DD207CA-769A-4D15-8B50-0494BC231879</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
 				<key>argumenttype</key>
 				<integer>1</integer>
 				<key>keyword</key>
@@ -6457,6 +6752,27 @@ bash ./site_search.sh "$is_new_window" "$browser" "$site" "$1" "./urls.json"</st
 			<key>config</key>
 			<dict>
 				<key>argumenttype</key>
+				<integer>2</integer>
+				<key>keyword</key>
+				<string>docs spring</string>
+				<key>subtext</key>
+				<string></string>
+				<key>text</key>
+				<string>Open Spring Documentation in Chrome</string>
+				<key>withspace</key>
+				<false/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.keyword</string>
+			<key>uid</key>
+			<string>35C2F5C9-876C-483F-8699-D877B332F748</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argumenttype</key>
 				<integer>1</integer>
 				<key>keyword</key>
 				<string>beatport</string>
@@ -6471,6 +6787,26 @@ bash ./site_search.sh "$is_new_window" "$browser" "$site" "$1" "./urls.json"</st
 			<string>alfred.workflow.input.keyword</string>
 			<key>uid</key>
 			<string>FF1A9A91-A714-426E-9B53-371927D1283C</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argument</key>
+				<string>{query}</string>
+				<key>passthroughargument</key>
+				<false/>
+				<key>variables</key>
+				<dict>
+					<key>site</key>
+					<string>docs_spring</string>
+				</dict>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.utility.argument</string>
+			<key>uid</key>
+			<string>A750B834-5461-4D83-9C19-B072D8F9558C</string>
 			<key>version</key>
 			<integer>1</integer>
 		</dict>
@@ -6531,6 +6867,26 @@ bash ./site_search.sh "$is_new_window" "$browser" "$site" "$1" "./urls.json"</st
 			<string>alfred.workflow.utility.argument</string>
 			<key>uid</key>
 			<string>EA55094F-DA56-400E-B468-7D60CB4DB76A</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argument</key>
+				<string>{query}</string>
+				<key>passthroughargument</key>
+				<false/>
+				<key>variables</key>
+				<dict>
+					<key>is_new_window</key>
+					<string>1</string>
+				</dict>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.utility.argument</string>
+			<key>uid</key>
+			<string>EAAB7872-398C-4451-9263-9063ECB783A5</string>
 			<key>version</key>
 			<integer>1</integer>
 		</dict>
@@ -6618,10 +6974,30 @@ bash ./site_search.sh "$is_new_window" "$browser" "$site" "$1" "./urls.json"</st
 		<dict>
 			<key>config</key>
 			<dict>
+				<key>argument</key>
+				<string>{query}</string>
+				<key>passthroughargument</key>
+				<false/>
+				<key>variables</key>
+				<dict>
+					<key>is_new_window</key>
+					<string>0</string>
+				</dict>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.utility.argument</string>
+			<key>uid</key>
+			<string>7BA725DA-D37D-4315-AFF4-75E70DF1A3E7</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
 				<key>argumenttype</key>
 				<integer>1</integer>
 				<key>keyword</key>
-				<string>mdn_http_status</string>
+				<string>mdn http status</string>
 				<key>subtext</key>
 				<string></string>
 				<key>text</key>
@@ -6633,6 +7009,47 @@ bash ./site_search.sh "$is_new_window" "$browser" "$site" "$1" "./urls.json"</st
 			<string>alfred.workflow.input.keyword</string>
 			<key>uid</key>
 			<string>55942942-9E29-4E84-94DC-6FC7BDE7E791</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argumenttype</key>
+				<integer>2</integer>
+				<key>keyword</key>
+				<string>docs spring-java</string>
+				<key>subtext</key>
+				<string></string>
+				<key>text</key>
+				<string>Open SpringFramework Java API Documentation in Chrome</string>
+				<key>withspace</key>
+				<false/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.keyword</string>
+			<key>uid</key>
+			<string>C1860950-49BA-41A9-BA58-0BD9EDF39DF1</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argument</key>
+				<string>{query}</string>
+				<key>passthroughargument</key>
+				<false/>
+				<key>variables</key>
+				<dict>
+					<key>site</key>
+					<string>docs_spring_java</string>
+				</dict>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.utility.argument</string>
+			<key>uid</key>
+			<string>1EE2B23B-D079-4623-A859-09C7036B5835</string>
 			<key>version</key>
 			<integer>1</integer>
 		</dict>
@@ -6712,7 +7129,48 @@ bash ./site_search.sh "$is_new_window" "$browser" "$site" "$1" "./urls.json"</st
 			<key>type</key>
 			<string>alfred.workflow.utility.argument</string>
 			<key>uid</key>
+			<string>20B33578-5060-4D8A-93A3-AE2396385667</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argument</key>
+				<string>{query}</string>
+				<key>passthroughargument</key>
+				<false/>
+				<key>variables</key>
+				<dict>
+					<key>is_new_window</key>
+					<string>1</string>
+				</dict>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.utility.argument</string>
+			<key>uid</key>
 			<string>287B7FCB-213E-455D-8745-A6BB1E920F31</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argumenttype</key>
+				<integer>2</integer>
+				<key>keyword</key>
+				<string>docs javadoc-io</string>
+				<key>subtext</key>
+				<string></string>
+				<key>text</key>
+				<string>Open javadoc.io Documentation in Chrome</string>
+				<key>withspace</key>
+				<false/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.keyword</string>
+			<key>uid</key>
+			<string>7B29DA04-5E16-4BFB-AE3F-797ECAC6EC3A</string>
 			<key>version</key>
 			<integer>1</integer>
 		</dict>
@@ -6780,6 +7238,26 @@ bash ./site_search.sh "$is_new_window" "$browser" "$site" "$1" "./urls.json"</st
 		<dict>
 			<key>config</key>
 			<dict>
+				<key>argument</key>
+				<string>{query}</string>
+				<key>passthroughargument</key>
+				<false/>
+				<key>variables</key>
+				<dict>
+					<key>is_new_window</key>
+					<string>0</string>
+				</dict>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.utility.argument</string>
+			<key>uid</key>
+			<string>2A84069D-22FD-430F-97F2-BB305EC098FF</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
 				<key>argumenttype</key>
 				<integer>1</integer>
 				<key>keyword</key>
@@ -6795,6 +7273,26 @@ bash ./site_search.sh "$is_new_window" "$browser" "$site" "$1" "./urls.json"</st
 			<string>alfred.workflow.input.keyword</string>
 			<key>uid</key>
 			<string>9952B0FC-CB0B-47EB-AAE8-2023D2240480</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argument</key>
+				<string>{query}</string>
+				<key>passthroughargument</key>
+				<false/>
+				<key>variables</key>
+				<dict>
+					<key>site</key>
+					<string>docs_javadoc_io</string>
+				</dict>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.utility.argument</string>
+			<key>uid</key>
+			<string>09984572-1FC2-435D-8EC7-CF673B4E78D9</string>
 			<key>version</key>
 			<integer>1</integer>
 		</dict>
@@ -6835,6 +7333,26 @@ bash ./site_search.sh "$is_new_window" "$browser" "$site" "$1" "./urls.json"</st
 			<string>alfred.workflow.utility.argument</string>
 			<key>uid</key>
 			<string>0F14DB26-6D5E-459C-B2D9-6322C5D06A41</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argument</key>
+				<string>{query}</string>
+				<key>passthroughargument</key>
+				<false/>
+				<key>variables</key>
+				<dict>
+					<key>is_new_window</key>
+					<string>1</string>
+				</dict>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.utility.argument</string>
+			<key>uid</key>
+			<string>E27CCECC-75EE-40BF-B100-CF124224F6D2</string>
 			<key>version</key>
 			<integer>1</integer>
 		</dict>
@@ -7394,7 +7912,7 @@ bash ./site_search.sh "$is_new_window" "$browser" "$site" "$1" "./urls.json"</st
 				<key>subtext</key>
 				<string></string>
 				<key>text</key>
-				<string>Open/Search blind in Chrome</string>
+				<string>Open/Search 블라인드 in Chrome</string>
 				<key>withspace</key>
 				<true/>
 			</dict>
@@ -9227,9 +9745,171 @@ bash ./site_search.sh "$is_new_window" "$browser" "$site" "$1" "./urls.json"</st
 			<key>version</key>
 			<integer>1</integer>
 		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argumenttype</key>
+				<integer>1</integer>
+				<key>keyword</key>
+				<string>jwt</string>
+				<key>subtext</key>
+				<string></string>
+				<key>text</key>
+				<string>Open/Search jwt.io in Chrome</string>
+				<key>withspace</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.keyword</string>
+			<key>uid</key>
+			<string>2F09BD89-FCAD-4D4D-9AA5-7455C2C1FC3A</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argument</key>
+				<string>{query}</string>
+				<key>passthroughargument</key>
+				<false/>
+				<key>variables</key>
+				<dict>
+					<key>is_new_window</key>
+					<string>0</string>
+				</dict>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.utility.argument</string>
+			<key>uid</key>
+			<string>70759D64-6E75-4916-9FAD-DC2C39700002</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argument</key>
+				<string>{query}</string>
+				<key>passthroughargument</key>
+				<false/>
+				<key>variables</key>
+				<dict>
+					<key>site</key>
+					<string>jwt</string>
+				</dict>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.utility.argument</string>
+			<key>uid</key>
+			<string>969FAEC5-937F-49CB-94C3-4E739D8E9C53</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argument</key>
+				<string>{query}</string>
+				<key>passthroughargument</key>
+				<false/>
+				<key>variables</key>
+				<dict>
+					<key>is_new_window</key>
+					<string>1</string>
+				</dict>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.utility.argument</string>
+			<key>uid</key>
+			<string>5ECF5A68-90E0-42E4-98EF-91637DC53DC8</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argumenttype</key>
+				<integer>1</integer>
+				<key>keyword</key>
+				<string>jobplanet</string>
+				<key>subtext</key>
+				<string></string>
+				<key>text</key>
+				<string>Open/Search 잡플래닛 in Chrome</string>
+				<key>withspace</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.keyword</string>
+			<key>uid</key>
+			<string>376FA8F8-DBC6-42AB-9A94-32A131D343FB</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argument</key>
+				<string>{query}</string>
+				<key>passthroughargument</key>
+				<false/>
+				<key>variables</key>
+				<dict>
+					<key>is_new_window</key>
+					<string>0</string>
+				</dict>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.utility.argument</string>
+			<key>uid</key>
+			<string>B4BE598C-6BDE-475C-8158-774B3E9CF35E</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argument</key>
+				<string>{query}</string>
+				<key>passthroughargument</key>
+				<false/>
+				<key>variables</key>
+				<dict>
+					<key>site</key>
+					<string>jobplanet</string>
+				</dict>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.utility.argument</string>
+			<key>uid</key>
+			<string>560807A1-0A98-48D1-A844-214205087406</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argument</key>
+				<string>{query}</string>
+				<key>passthroughargument</key>
+				<false/>
+				<key>variables</key>
+				<dict>
+					<key>is_new_window</key>
+					<string>1</string>
+				</dict>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.utility.argument</string>
+			<key>uid</key>
+			<string>DC2240EA-9E59-42F4-9C35-AFD098BE0516</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
 	</array>
 	<key>readme</key>
-	<string></string>
+	<string>Custom web search</string>
 	<key>uidata</key>
 	<dict>
 		<key>0077028E-9E27-4205-98EF-DE97A73563E5</key>
@@ -9242,9 +9922,9 @@ bash ./site_search.sh "$is_new_window" "$browser" "$site" "$1" "./urls.json"</st
 		<key>00AB4548-4A66-45D8-B6F5-8CE54C1FF4F0</key>
 		<dict>
 			<key>xpos</key>
-			<real>430</real>
+			<real>605</real>
 			<key>ypos</key>
-			<real>45</real>
+			<real>200</real>
 		</dict>
 		<key>0301F37F-4C59-4F69-A946-E93690DF3002</key>
 		<dict>
@@ -9276,19 +9956,21 @@ bash ./site_search.sh "$is_new_window" "$browser" "$site" "$1" "./urls.json"</st
 			<key>ypos</key>
 			<real>3220</real>
 		</dict>
+		<key>09984572-1FC2-435D-8EC7-CF673B4E78D9</key>
+		<dict>
+			<key>note</key>
+			<string>NAME</string>
+			<key>xpos</key>
+			<real>2515</real>
+			<key>ypos</key>
+			<real>2245</real>
+		</dict>
 		<key>0A8E36B2-7C8B-46F4-9026-496165F033F4</key>
 		<dict>
 			<key>xpos</key>
 			<real>50</real>
 			<key>ypos</key>
 			<real>1220</real>
-		</dict>
-		<key>0B9A1F70-D5CB-42EF-B4E8-B63B560508F8</key>
-		<dict>
-			<key>xpos</key>
-			<real>30</real>
-			<key>ypos</key>
-			<real>15</real>
 		</dict>
 		<key>0BEBEF5B-97E9-42AE-BE6C-4ACBB6441136</key>
 		<dict>
@@ -9317,6 +9999,13 @@ bash ./site_search.sh "$is_new_window" "$browser" "$site" "$1" "./urls.json"</st
 			<real>50</real>
 			<key>ypos</key>
 			<real>1095</real>
+		</dict>
+		<key>0DD207CA-769A-4D15-8B50-0494BC231879</key>
+		<dict>
+			<key>xpos</key>
+			<real>2360</real>
+			<key>ypos</key>
+			<real>1970</real>
 		</dict>
 		<key>0ED3269D-0703-4DD6-AF23-0EF662E4C8CE</key>
 		<dict>
@@ -9485,6 +10174,15 @@ bash ./site_search.sh "$is_new_window" "$browser" "$site" "$1" "./urls.json"</st
 			<key>ypos</key>
 			<real>2405</real>
 		</dict>
+		<key>1EE2B23B-D079-4623-A859-09C7036B5835</key>
+		<dict>
+			<key>note</key>
+			<string>NAME</string>
+			<key>xpos</key>
+			<real>2515</real>
+			<key>ypos</key>
+			<real>2120</real>
+		</dict>
 		<key>1F72E8DD-293E-4C67-ADCF-3F6CB33867A0</key>
 		<dict>
 			<key>note</key>
@@ -9509,6 +10207,13 @@ bash ./site_search.sh "$is_new_window" "$browser" "$site" "$1" "./urls.json"</st
 			<real>2140</real>
 			<key>ypos</key>
 			<real>1845</real>
+		</dict>
+		<key>20B33578-5060-4D8A-93A3-AE2396385667</key>
+		<dict>
+			<key>xpos</key>
+			<real>2360</real>
+			<key>ypos</key>
+			<real>2155</real>
 		</dict>
 		<key>20D9DA8F-90DC-4E2A-BAE8-0B7017182D73</key>
 		<dict>
@@ -9540,12 +10245,26 @@ bash ./site_search.sh "$is_new_window" "$browser" "$site" "$1" "./urls.json"</st
 			<key>ypos</key>
 			<real>1595</real>
 		</dict>
+		<key>2954AE3A-59FB-4B60-927E-67A59988A53A</key>
+		<dict>
+			<key>xpos</key>
+			<real>1470</real>
+			<key>ypos</key>
+			<real>595</real>
+		</dict>
 		<key>29E73E84-1A5D-4107-B1BC-4DEB3BC2479B</key>
 		<dict>
 			<key>xpos</key>
 			<real>1315</real>
 			<key>ypos</key>
 			<real>2530</real>
+		</dict>
+		<key>2A84069D-22FD-430F-97F2-BB305EC098FF</key>
+		<dict>
+			<key>xpos</key>
+			<real>2360</real>
+			<key>ypos</key>
+			<real>2220</real>
 		</dict>
 		<key>2BE197DB-A3A2-4F4D-9A1C-E846C794F0ED</key>
 		<dict>
@@ -9574,6 +10293,13 @@ bash ./site_search.sh "$is_new_window" "$browser" "$site" "$1" "./urls.json"</st
 			<real>1690</real>
 			<key>ypos</key>
 			<real>720</real>
+		</dict>
+		<key>2F09BD89-FCAD-4D4D-9AA5-7455C2C1FC3A</key>
+		<dict>
+			<key>xpos</key>
+			<real>1095</real>
+			<key>ypos</key>
+			<real>4470</real>
 		</dict>
 		<key>2F61BE42-514B-4E95-8175-48494C17D003</key>
 		<dict>
@@ -9638,6 +10364,13 @@ bash ./site_search.sh "$is_new_window" "$browser" "$site" "$1" "./urls.json"</st
 			<key>ypos</key>
 			<real>595</real>
 		</dict>
+		<key>35C2F5C9-876C-483F-8699-D877B332F748</key>
+		<dict>
+			<key>xpos</key>
+			<real>2140</real>
+			<key>ypos</key>
+			<real>1970</real>
+		</dict>
 		<key>36C47A94-87B6-46CC-A74B-10E69552CF83</key>
 		<dict>
 			<key>note</key>
@@ -9653,6 +10386,13 @@ bash ./site_search.sh "$is_new_window" "$browser" "$site" "$1" "./urls.json"</st
 			<real>1315</real>
 			<key>ypos</key>
 			<real>2595</real>
+		</dict>
+		<key>376FA8F8-DBC6-42AB-9A94-32A131D343FB</key>
+		<dict>
+			<key>xpos</key>
+			<real>1095</real>
+			<key>ypos</key>
+			<real>4595</real>
 		</dict>
 		<key>37784944-D1D2-4FC9-85FD-8817D5757CA1</key>
 		<dict>
@@ -9720,13 +10460,6 @@ bash ./site_search.sh "$is_new_window" "$browser" "$site" "$1" "./urls.json"</st
 			<real>270</real>
 			<key>ypos</key>
 			<real>2030</real>
-		</dict>
-		<key>417476C9-C197-445B-B9E4-75C84BB3D796</key>
-		<dict>
-			<key>xpos</key>
-			<real>30</real>
-			<key>ypos</key>
-			<real>330</real>
 		</dict>
 		<key>4347CBF2-BB94-4532-8B72-E47CE1C594A9</key>
 		<dict>
@@ -9881,6 +10614,15 @@ bash ./site_search.sh "$is_new_window" "$browser" "$site" "$1" "./urls.json"</st
 			<key>ypos</key>
 			<real>3970</real>
 		</dict>
+		<key>560807A1-0A98-48D1-A844-214205087406</key>
+		<dict>
+			<key>note</key>
+			<string>NAME</string>
+			<key>xpos</key>
+			<real>1470</real>
+			<key>ypos</key>
+			<real>4620</real>
+		</dict>
 		<key>567E8077-CD87-427F-8A71-5D7E57027B21</key>
 		<dict>
 			<key>xpos</key>
@@ -9992,6 +10734,13 @@ bash ./site_search.sh "$is_new_window" "$browser" "$site" "$1" "./urls.json"</st
 			<key>ypos</key>
 			<real>1625</real>
 		</dict>
+		<key>5ECF5A68-90E0-42E4-98EF-91637DC53DC8</key>
+		<dict>
+			<key>xpos</key>
+			<real>1315</real>
+			<key>ypos</key>
+			<real>4535</real>
+		</dict>
 		<key>5FC4D5A8-3C99-4976-B046-9FE8E859491B</key>
 		<dict>
 			<key>xpos</key>
@@ -10016,9 +10765,9 @@ bash ./site_search.sh "$is_new_window" "$browser" "$site" "$1" "./urls.json"</st
 		<key>622064D6-5EAB-404F-8969-B9E1967433BA</key>
 		<dict>
 			<key>xpos</key>
-			<real>645</real>
+			<real>270</real>
 			<key>ypos</key>
-			<real>595</real>
+			<real>720</real>
 		</dict>
 		<key>663416AB-C173-4154-B15B-56DF6B768950</key>
 		<dict>
@@ -10061,6 +10810,13 @@ bash ./site_search.sh "$is_new_window" "$browser" "$site" "$1" "./urls.json"</st
 			<key>ypos</key>
 			<real>3720</real>
 		</dict>
+		<key>6926AED1-CA4D-4805-B960-CFB6283F70C9</key>
+		<dict>
+			<key>xpos</key>
+			<real>1690</real>
+			<key>ypos</key>
+			<real>595</real>
+		</dict>
 		<key>696AFE84-F34D-4647-98FE-60858CF2DD82</key>
 		<dict>
 			<key>xpos</key>
@@ -10081,6 +10837,13 @@ bash ./site_search.sh "$is_new_window" "$browser" "$site" "$1" "./urls.json"</st
 			<real>1315</real>
 			<key>ypos</key>
 			<real>1405</real>
+		</dict>
+		<key>6AD7857A-5C2B-48BD-B60A-1BD5EFAEC3FA</key>
+		<dict>
+			<key>xpos</key>
+			<real>270</real>
+			<key>ypos</key>
+			<real>595</real>
 		</dict>
 		<key>6AD8C017-ECA5-4380-91D5-F8FDFDCE5378</key>
 		<dict>
@@ -10116,6 +10879,13 @@ bash ./site_search.sh "$is_new_window" "$browser" "$site" "$1" "./urls.json"</st
 			<real>785</real>
 			<key>ypos</key>
 			<real>1125</real>
+		</dict>
+		<key>70759D64-6E75-4916-9FAD-DC2C39700002</key>
+		<dict>
+			<key>xpos</key>
+			<real>1315</real>
+			<key>ypos</key>
+			<real>4470</real>
 		</dict>
 		<key>710409ED-1266-417A-9710-33D3EAAA6C1B</key>
 		<dict>
@@ -10200,6 +10970,20 @@ bash ./site_search.sh "$is_new_window" "$browser" "$site" "$1" "./urls.json"</st
 			<key>ypos</key>
 			<real>4220</real>
 		</dict>
+		<key>7B29DA04-5E16-4BFB-AE3F-797ECAC6EC3A</key>
+		<dict>
+			<key>xpos</key>
+			<real>2140</real>
+			<key>ypos</key>
+			<real>2220</real>
+		</dict>
+		<key>7BA725DA-D37D-4315-AFF4-75E70DF1A3E7</key>
+		<dict>
+			<key>xpos</key>
+			<real>2360</real>
+			<key>ypos</key>
+			<real>2095</real>
+		</dict>
 		<key>7CDDC34F-42A5-4410-B02B-211EBB532733</key>
 		<dict>
 			<key>xpos</key>
@@ -10260,9 +11044,9 @@ bash ./site_search.sh "$is_new_window" "$browser" "$site" "$1" "./urls.json"</st
 		<key>8334BABE-15F3-499F-BFA7-AA9B94830D26</key>
 		<dict>
 			<key>xpos</key>
-			<real>245</real>
+			<real>405</real>
 			<key>ypos</key>
-			<real>15</real>
+			<real>175</real>
 		</dict>
 		<key>8397FEC8-63D9-446D-A857-4944DD58AF3C</key>
 		<dict>
@@ -10418,6 +11202,15 @@ bash ./site_search.sh "$is_new_window" "$browser" "$site" "$1" "./urls.json"</st
 			<key>ypos</key>
 			<real>1250</real>
 		</dict>
+		<key>969FAEC5-937F-49CB-94C3-4E739D8E9C53</key>
+		<dict>
+			<key>note</key>
+			<string>NAME</string>
+			<key>xpos</key>
+			<real>1470</real>
+			<key>ypos</key>
+			<real>4495</real>
+		</dict>
 		<key>98BEC147-A4E7-4345-AE4C-643D496E0BBF</key>
 		<dict>
 			<key>note</key>
@@ -10510,19 +11303,12 @@ bash ./site_search.sh "$is_new_window" "$browser" "$site" "$1" "./urls.json"</st
 			<key>ypos</key>
 			<real>2500</real>
 		</dict>
-		<key>A4BF90D6-A4EC-4A1D-AE0A-91AE02E04273</key>
-		<dict>
-			<key>xpos</key>
-			<real>30</real>
-			<key>ypos</key>
-			<real>120</real>
-		</dict>
 		<key>A5EF3BDC-1734-4207-B4C2-7C768D83D978</key>
 		<dict>
 			<key>xpos</key>
-			<real>425</real>
+			<real>50</real>
 			<key>ypos</key>
-			<real>595</real>
+			<real>720</real>
 		</dict>
 		<key>A71DCE39-86D9-4262-9ABD-83EDB551CE51</key>
 		<dict>
@@ -10530,6 +11316,15 @@ bash ./site_search.sh "$is_new_window" "$browser" "$site" "$1" "./urls.json"</st
 			<real>1315</real>
 			<key>ypos</key>
 			<real>4030</real>
+		</dict>
+		<key>A750B834-5461-4D83-9C19-B072D8F9558C</key>
+		<dict>
+			<key>note</key>
+			<string>NAME</string>
+			<key>xpos</key>
+			<real>2515</real>
+			<key>ypos</key>
+			<real>1995</real>
 		</dict>
 		<key>A88210B4-0E5C-4459-B1F6-B0FDD66FF35E</key>
 		<dict>
@@ -10624,6 +11419,13 @@ bash ./site_search.sh "$is_new_window" "$browser" "$site" "$1" "./urls.json"</st
 			<real>1315</real>
 			<key>ypos</key>
 			<real>2655</real>
+		</dict>
+		<key>B4BE598C-6BDE-475C-8158-774B3E9CF35E</key>
+		<dict>
+			<key>xpos</key>
+			<real>1315</real>
+			<key>ypos</key>
+			<real>4595</real>
 		</dict>
 		<key>B5BA3DC0-ED4A-4ECC-8F8C-1110B3A0F857</key>
 		<dict>
@@ -10722,6 +11524,13 @@ bash ./site_search.sh "$is_new_window" "$browser" "$site" "$1" "./urls.json"</st
 			<key>ypos</key>
 			<real>1780</real>
 		</dict>
+		<key>C1860950-49BA-41A9-BA58-0BD9EDF39DF1</key>
+		<dict>
+			<key>xpos</key>
+			<real>2140</real>
+			<key>ypos</key>
+			<real>2095</real>
+		</dict>
 		<key>C424F484-7326-45E6-BE3B-4B6F444F5059</key>
 		<dict>
 			<key>note</key>
@@ -10730,6 +11539,13 @@ bash ./site_search.sh "$is_new_window" "$browser" "$site" "$1" "./urls.json"</st
 			<real>1470</real>
 			<key>ypos</key>
 			<real>2125</real>
+		</dict>
+		<key>C52D8982-EF2B-47B9-8DBE-3333CB593C79</key>
+		<dict>
+			<key>xpos</key>
+			<real>80</real>
+			<key>ypos</key>
+			<real>170</real>
 		</dict>
 		<key>C547D7B2-BC74-4D70-AE0C-DAA76A8F1F94</key>
 		<dict>
@@ -10886,6 +11702,13 @@ bash ./site_search.sh "$is_new_window" "$browser" "$site" "$1" "./urls.json"</st
 			<key>ypos</key>
 			<real>3470</real>
 		</dict>
+		<key>DC2240EA-9E59-42F4-9C35-AFD098BE0516</key>
+		<dict>
+			<key>xpos</key>
+			<real>1315</real>
+			<key>ypos</key>
+			<real>4660</real>
+		</dict>
 		<key>DC27FEFF-F64B-4170-BD7B-09999AA6A255</key>
 		<dict>
 			<key>xpos</key>
@@ -10992,6 +11815,20 @@ bash ./site_search.sh "$is_new_window" "$browser" "$site" "$1" "./urls.json"</st
 			<key>ypos</key>
 			<real>3780</real>
 		</dict>
+		<key>E2237063-700B-4B1A-B519-B531ED54B44F</key>
+		<dict>
+			<key>xpos</key>
+			<real>395</real>
+			<key>ypos</key>
+			<real>55</real>
+		</dict>
+		<key>E27CCECC-75EE-40BF-B100-CF124224F6D2</key>
+		<dict>
+			<key>xpos</key>
+			<real>2360</real>
+			<key>ypos</key>
+			<real>2280</real>
+		</dict>
 		<key>E35383F8-E9F1-4456-B86C-52C8F9815407</key>
 		<dict>
 			<key>xpos</key>
@@ -11059,6 +11896,13 @@ bash ./site_search.sh "$is_new_window" "$browser" "$site" "$1" "./urls.json"</st
 			<key>ypos</key>
 			<real>4095</real>
 		</dict>
+		<key>EAAB7872-398C-4451-9263-9063ECB783A5</key>
+		<dict>
+			<key>xpos</key>
+			<real>2360</real>
+			<key>ypos</key>
+			<real>2030</real>
+		</dict>
 		<key>EB72A0F7-B8AE-4F35-B0FE-4BB6734CB8FA</key>
 		<dict>
 			<key>note</key>
@@ -11074,6 +11918,13 @@ bash ./site_search.sh "$is_new_window" "$browser" "$site" "$1" "./urls.json"</st
 			<real>1095</real>
 			<key>ypos</key>
 			<real>3595</real>
+		</dict>
+		<key>EC34AD7C-6F00-41B5-9878-2DA235AEA5AD</key>
+		<dict>
+			<key>xpos</key>
+			<real>50</real>
+			<key>ypos</key>
+			<real>595</real>
 		</dict>
 		<key>ECC65B99-94C4-4976-A26D-21736A5BFAD1</key>
 		<dict>
@@ -11105,13 +11956,6 @@ bash ./site_search.sh "$is_new_window" "$browser" "$site" "$1" "./urls.json"</st
 			<key>ypos</key>
 			<real>3405</real>
 		</dict>
-		<key>F01FC553-C2FB-46F9-A037-72FF833DDFF0</key>
-		<dict>
-			<key>xpos</key>
-			<real>30</real>
-			<key>ypos</key>
-			<real>435</real>
-		</dict>
 		<key>F0CA07A2-B26B-4548-B06F-551DA3CD2BB9</key>
 		<dict>
 			<key>xpos</key>
@@ -11141,13 +11985,6 @@ bash ./site_search.sh "$is_new_window" "$browser" "$site" "$1" "./urls.json"</st
 			<real>270</real>
 			<key>ypos</key>
 			<real>3595</real>
-		</dict>
-		<key>F577F80A-C429-48B1-B59C-A4FDCFB93875</key>
-		<dict>
-			<key>xpos</key>
-			<real>30</real>
-			<key>ypos</key>
-			<real>225</real>
 		</dict>
 		<key>F57ECFBD-0B8E-40EB-B7E6-2D2CEBA940D5</key>
 		<dict>
@@ -11220,6 +12057,6 @@ bash ./site_search.sh "$is_new_window" "$browser" "$site" "$1" "./urls.json"</st
 	<key>version</key>
 	<string>0.0.1</string>
 	<key>webaddress</key>
-	<string></string>
+	<string>https://github.com/Daeho-Son/custom-web-search</string>
 </dict>
 </plist>

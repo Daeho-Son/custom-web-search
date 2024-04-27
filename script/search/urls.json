@@ -55,7 +55,7 @@
     "base": "https://www.npmjs.com/",
     "query": "https://www.npmjs.com/search?q={query}"
   },
-  "devdocs": {
+  "docs_programmers": {
     "base": "https://devdocs.programmers.co.kr/",
     "query": "https://devdocs.programmers.co.kr/{query}"
   },
@@ -111,10 +111,6 @@
     "base": "https://solved.ac",
     "query": "https://solved.ac/profile/{query}/solved"
   },
-  "java_docs": {
-    "base": "https://docs.oracle.com/en/java/javase/index.html",
-    "query": "https://docs.oracle.com/en/java/javase/index.html"
-  },
   "inflearn_roadmap": {
     "base": "https://www.inflearn.com/user/roadmaps",
     "query": "https://www.inflearn.com/user/roadmaps"
@@ -147,9 +143,9 @@
     "base": "https://www.ibm.com",
     "query": "https://www.ibm.com/docs/ko/search/{query}"
   },
-  "linkedin":{
-	  "base":"https://www.linkedin.com",
-	  "query":"https://www.linkedin.com/search/results/all/?keywords={query}"
+  "linkedin": {
+    "base": "https://www.linkedin.com",
+    "query": "https://www.linkedin.com/search/results/all/?keywords={query}"
   },
   "docker_hub": {
     "base": "https://hub.docker.com/",
@@ -160,23 +156,47 @@
     "query": "https://docs.docker.com/reference"
   },
   "docs_python": {
-	  "base":"https://docs.python.org/ko/3",
-	  "query":"https://docs.python.org/ko/3/search.html?q={query}"
+    "base": "https://docs.python.org/ko/3",
+    "query": "https://docs.python.org/ko/3/search.html?q={query}"
   },
   "health": {
-	  "base":"https://www.health.kr/main.asp",
-	  "query":"https://www.health.kr/main.asp"
+    "base": "https://www.health.kr/main.asp",
+    "query": "https://www.health.kr/main.asp"
   },
   "rocketpunch": {
-	  "base":"https://www.rocketpunch.com",
-	  "query":"https://www.rocketpunch.com/search?keywords={query}"
+    "base": "https://www.rocketpunch.com",
+    "query": "https://www.rocketpunch.com/search?keywords={query}"
   },
   "programmers_lessons": {
-	  "base":"https://programmers.co.kr/",
-	  "query":"https://school.programmers.co.kr/learn/courses/30/lessons/{query}"
+    "base": "https://programmers.co.kr/",
+    "query": "https://school.programmers.co.kr/learn/challenges?search={query}"
   },
   "innoforest": {
-	  "base":"https://www.innoforest.co.kr",
-	  "query":"https://www.innoforest.co.kr/search?keyword={query}"
+    "base": "https://www.innoforest.co.kr",
+    "query": "https://www.innoforest.co.kr/search?keyword={query}"
+  },
+  "jwt": {
+    "base": "https://jwt.io",
+    "query": "https://jwt.io"
+  },
+  "docs_java": {
+    "base": "https://docs.oracle.com/en/java/javase",
+    "query": "https://docs.oracle.com/search/?q={query}&lang=en&category=java"
+  },
+  "docs_spring": {
+    "base": "https://spring.io/projects",
+    "query": "https://spring.io/projects"
+  },
+  "docs_spring_java": {
+    "base": "https://docs.spring.io/spring-framework/docs/current/javadoc-api/",
+    "query": "https://docs.spring.io/spring-framework/docs/current/javadoc-api/"
+  },
+  "docs_javadoc_io": {
+    "base": "https://javadoc.io/",
+    "query": "https://javadoc.io/"
+  },
+  "jobplanet": {
+    "base": "https://www.jobplanet.co.kr/",
+    "query": "https://www.jobplanet.co.kr/search?query={query}"
   }
 }
