@@ -30,24 +30,17 @@ if [[ "$?" == "127" ]]; then
 	fi
 fi
 
-window_option=""
-open_option="-a"
+open_option="-na"
+window_option="--args"
 if [[ $is_new_window == "1" ]]; then
-	window_option="--args --new-window"
-	open_option="-na"
+	window_option="$window_option --new-window"
 fi
 
-if [[ $query == "" ]]; then
-	echo "[DEBUG] 매개변수 없음"
-	url="https://google.com"
-elif [[ "$query" =~ (https:\/\/|http:\/\/) ]]; then
-	echo "[DEBUG] https 혹은 http가 포함된 URI를 매개변수로 입력"
-	url="$query"
-elif [[ "$query" =~ ([a-zA-Z0-9]{2,})(\.[a-zA-Z0-9]{2,})(\.[a-zA-Z0-9]{2,})? ]]; then
+if [[ "$query" =~ (https:\/\/|http:\/\/)?([a-zA-Z0-9]{2,})(\.[a-zA-Z0-9]{2,})(\.[a-zA-Z0-9]{2,})? ]]; then
 	echo "[DEBUG] URI를 매개변수로 입력"
-	url="https://$query"
+	url="$query"
 else
-	echo "검색어를 매개변수로 입력"
+	echo "[DEBUG] 검색어를 매개변수로 입력"
 	url=`cat $urls_json | jq ".$site.query"`
 	url=${url%\"}
 	url=${url#\"}
@@ -55,6 +48,7 @@ else
 fi
 
 rm -f 0
+rm -f 1
 
 echo $open_option "$browser" $window_option "$url" > ./debug/z_execute_command.txt
 open "$open_option" "$browser" $window_option "$url"
