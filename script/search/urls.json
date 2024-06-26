@@ -65,7 +65,7 @@
   },
   "mdn": {
     "base": "https://developer.mozilla.org/",
-    "query": "https://developer.mozilla.org/en-US/search?q={query}"
+    "query": "https://developer.mozilla.org/ko/search?q={query}"
   },
   "mdn_http_Status": {
     "base": "https://developer.mozilla.org/ko/docs/Web/HTTP/Status",
@@ -181,7 +181,7 @@
   },
   "docs_java": {
     "base": "https://docs.oracle.com/en/java/javase",
-    "query": "https://docs.oracle.com/search/?q={query}&lang=en&category=java"
+	"query":"https://docs.oracle.com/search/?q={query}&product=en%2Fjava%2Fjavase&category=en%2Fjava&cType=WM178711&lang=en"
   },
   "docs_spring": {
     "base": "https://spring.io/projects",
@@ -198,5 +198,21 @@
   "jobplanet": {
     "base": "https://www.jobplanet.co.kr/",
     "query": "https://www.jobplanet.co.kr/search?query={query}"
+  },
+  "nginx": {
+	  "base": "https://nginx.org/en/docs/",
+	  "query":"https://nginx.org/en/docs/"
+  },
+  "docs_mysql": {
+	  "base": "https://dev.mysql.com/doc/refman/8.0/en/",
+	  "query": "https://dev.mysql.com/doc/refman/8.0/en/"
+  },
+  "docs_sql": {
+	  "base": "https://www.sqltutorial.org/",
+	  "query": "https://www.sqltutorial.org/?s={query}"
+  },
+  "fatsecret": {
+	  "base": "https://www.fatsecret.kr",
+	  "query": "https://www.fatsecret.kr/%EC%B9%BC%EB%A1%9C%EB%A6%AC-%EC%98%81%EC%96%91%EC%86%8C/search?q={query}"
   }
 }
