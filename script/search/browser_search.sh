@@ -38,15 +38,23 @@ if [[ $is_new_window == "1" ]]; then
 fi
 
 if [[ $query == "" ]]; then
+	echo "[DEBUG] 매개변수 없음"
 	url="https://google.com"
-elif [[ "$query" =~ (https:\/\/|http:\/\/)?([a-zA-Z0-9]{2,})(\.[a-zA-Z0-9]{2,})(\.[a-zA-Z0-9]{2,})? ]]; then	# url인지 검사하는 regex 수정
+elif [[ "$query" =~ (https:\/\/|http:\/\/) ]]; then
+	echo "[DEBUG] https 혹은 http가 포함된 URI를 매개변수로 입력"
 	url="$query"
+elif [[ "$query" =~ ([a-zA-Z0-9]{2,})(\.[a-zA-Z0-9]{2,})(\.[a-zA-Z0-9]{2,})? ]]; then
+	echo "[DEBUG] URI를 매개변수로 입력"
+	url="https://$query"
 else
+	echo "검색어를 매개변수로 입력"
 	url=`cat $urls_json | jq ".$site.query"`
 	url=${url%\"}
 	url=${url#\"}
 	url=$(echo -n $url | sed "s/{query}/$query/g")
 fi
+
+rm -f 0
 
 echo $open_option "$browser" $window_option "$url" > ./debug/z_execute_command.txt
 open "$open_option" "$browser" $window_option "$url"
