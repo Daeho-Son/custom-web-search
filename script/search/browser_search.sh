@@ -39,10 +39,8 @@ fi
 
 if [[ $query == "" ]]; then
 	url="https://google.com"
-elif [[ $query == "https://"* ]] || [[ $query == "http://"* ]]; then
+elif [[ "$query" =~ (https:\/\/|http:\/\/)?([a-zA-Z0-9]{2,})(\.[a-zA-Z0-9]{2,})(\.[a-zA-Z0-9]{2,})? ]]; then	# url인지 검사하는 regex 수정
 	url="$query"
-elif [[ $query == *".io" ]] || [[ $query == *".com" ]]  || [[ $query == *".co" ]] || [[ $query == *".net" ]] || [[ $query == *".kr" ]]; then
-	url="https://$query"
 else
 	url=`cat $urls_json | jq ".$site.query"`
 	url=${url%\"}
