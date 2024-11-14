@@ -13,6 +13,7 @@
 ![Nov-14-2024 23-32-14](https://github.com/user-attachments/assets/743189c9-4af3-472d-a04c-65fab82e7d75)
 
 <br>
+
 ## 사용 가능한 키워드
 
 - Workflows에서 확인해보자. 마우스 스크롤로 위 아래 탐색 할 수 있고, Shift를 누른 채로 마우스 스크롤을 사용하면 좌 우 탐색을 할 수 있다. 마우스 패드로도 빠르게 탐색할 수 있다.
