@@ -116,8 +116,8 @@
     "query": "https://www.inflearn.com/user/roadmaps"
   },
   "naver_shopping": {
-    "base": "https://search.shopping.naver.com",
-    "query": "https://search.shopping.naver.com/search/all?query={query}"
+    "base": "https://shopping.naver.com/ns/home",
+    "query": "https://search.shopping.naver.com/ns/search?query={query}"
   },
   "google_drive": {
     "base": "https://drive.google.com/drive/my-drive",
@@ -214,5 +214,29 @@
   "fatsecret": {
 	  "base": "https://www.fatsecret.kr",
 	  "query": "https://www.fatsecret.kr/%EC%B9%BC%EB%A1%9C%EB%A6%AC-%EC%98%81%EC%96%91%EC%86%8C/search?q={query}"
+  },
+  "icon": {
+	  "base": "https://techicons.dev",
+	  "query": "https://techicons.dev/?search={query}"
+  },
+  "docs_node": {
+	  "base": "https://nodejs.org/docs/latest/api/documentation.html",
+	  "query": "https://nodejs.org/docs/latest/api/{query}.html"
+  },
+  "w3c": {
+	  "base": "https://www.w3schools.com",
+	  "query": "https://www.w3schools.com"
+  },
+  "gpt": {
+	  "base": "https://chatgpt.com/",
+	  "query": "https://chatgpt.com/"
+  },
+  "claude": {
+	  "base": "https://claude.ai/",
+	  "query": "https://claude.ai/"
+  },
+  "dropship": {
+	  "base": "https://g2sh.me/",
+	  "query": "https://g2sh.me/sondho/{query}"
   }
 }
