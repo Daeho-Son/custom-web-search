@@ -13,6 +13,10 @@
 ![Nov-14-2024 23-32-14](https://github.com/user-attachments/assets/743189c9-4af3-472d-a04c-65fab82e7d75)
 
 <br>
+## 사용 가능한 키워드
+
+- Workflows에서 확인해보자. 마우스 스크롤로 위 아래 탐색 할 수 있고, Shift를 누른 채로 마우스 스크롤을 사용하면 좌 우 탐색을 할 수 있다. 마우스 패드로도 빠르게 탐색할 수 있다.
+- 맨 왼쪽부터 Whale에서 사용할 수 있는 빠른 검색, Chrome에서 사용할 수 있는 빠른 검색, 개발자 공식 문서 빠른 검색이다.
 
 ## 필요한 라이브러리
 - jq : 리눅스에서 JSON 데이터 가공하기 위한 라이브러리
@@ -30,8 +34,7 @@ brew install jq
 
 <br>
 
-### script/search/urls.json
-- [바로가기](https://github.com/Daeho-Son/custom-web-search/blob/main/script/search/urls.json)
+### [script/search/urls.json](https://github.com/Daeho-Son/custom-web-search/blob/main/script/search/urls.json)
 - 빠른 검색을 위한 사이트 정보가 JSON 형태로 구성되어 있다.
 - `value`는 `base`와 `query`로 구성되어 있다.
 - `base`는 홈페이지 url이, `query`는 해당 사이트를 통해 빠른 검색을 하기 위한 url이 설정되어 있다.
