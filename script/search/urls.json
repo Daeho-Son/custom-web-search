@@ -111,9 +111,9 @@
     "base": "https://solved.ac",
     "query": "https://solved.ac/profile/{query}/solved"
   },
-  "inflearn_roadmap": {
-    "base": "https://www.inflearn.com/user/roadmaps",
-    "query": "https://www.inflearn.com/user/roadmaps"
+  "inflearn": {
+    "base": "https://www.inflearn.com/my/courses",
+    "query": "https://www.inflearn.com/my/courses"
   },
   "naver_shopping": {
     "base": "https://shopping.naver.com/ns/home",
@@ -238,5 +238,33 @@
   "dropship": {
 	  "base": "https://g2sh.me/",
 	  "query": "https://g2sh.me/sondho/{query}"
+  },
+  "zep": {
+	  "base": "https://zep.us/",
+	  "query": "https://zep.us/"
+  },
+  "docs_jakarta": {
+	  "base": "https://jakarta.ee/specifications/platform/10/apidocs/",
+	  "query": "https://www.eclipse.org/home/search/?q={query}"
+  },
+  "devdocs": {
+	  "base": "https://devdocs.io/",
+	  "query": "https://devdocs.io/{query}"
+  },
+  "deepseek": {
+	  "base": "https://chat.deepseek.com/",
+	  "query": "https://chat.deepseek.com/"
+  },
+  "jobkorea": {
+	  "base": "https://www.jobkorea.co.kr/",
+	  "query": "https://www.jobkorea.co.kr/Search/?stext={query}"
+  },
+  "biz_info": {
+	  "base": "https://www.nicebizinfo.com/cm/CM0100M001GE.nice",
+	  "query": "https://www.nicebizinfo.com/cm/CM0100M001GE.nice"
+  },
+  "papago": {
+    "base": "https://papago.naver.com/",
+    "query": "https://papago.naver.com/?sk=auto&tk=ko&hn=0&st={query}"
   }
 }
