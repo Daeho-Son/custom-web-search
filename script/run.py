@@ -1,6 +1,6 @@
 import json
 import sys
-
+import os
 
 def load_urls_from_json(json_file_path):
     with open(json_file_path, 'r', encoding='utf-8') as f:
