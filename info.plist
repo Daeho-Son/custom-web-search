@@ -493,7 +493,11 @@ echo $browsers</string>
 				<key>runningsubtext</key>
 				<string></string>
 				<key>script</key>
-				<string>python3 script/run.py $1 "$BROWSERS" ./script/search/urls.json</string>
+				<string>URLS_JSON_CONTENT=$(cat ./script/search/urls.json)
+export URLS_JSON_CONTENT
+export BROWSERS="$BROWSERS"
+
+python3 script/run.py $1</string>
 				<key>scriptargtype</key>
 				<integer>1</integer>
 				<key>scriptfile</key>

@@ -1,9 +1,7 @@
+import itertools
 import json
+import os
 import sys
-
-def load_urls_from_json(json_file_path):
-    with open(json_file_path, 'r', encoding='utf-8') as f:
-        return json.load(f)
 
 
 def parse_item(item, open_browser="", query=""):
@@ -22,30 +20,25 @@ def parse_item(item, open_browser="", query=""):
         }
     }
 
-def find_matching_sites(search_term, urls_data):
-    return [site for site in urls_data.keys() if search_term.lower() in site.lower()]
+def find_matching_sites(search_term, urls_data, browsers, query):
+    for site in urls_data.keys():
+        if search_term.lower() in site.lower():
+            for browser in browsers:
+                yield parse_item(site, browser.strip(), query)
+
 
 def main():
     site_name = sys.argv[1]
-    browsers = sys.argv[-2]
-    urls_json_path = sys.argv[-1]
-    urls_data = load_urls_from_json(urls_json_path)
-    if len(sys.argv) > 4:
-        search_terms = sys.argv[2:-2]
+    browsers = os.environ.get('BROWSERS')
+    urls_data = json.loads(os.environ.get('URLS_JSON_CONTENT'))
+    if len(sys.argv) > 2:
+        search_terms = sys.argv[2:]
         query = ' '.join(search_terms)
     else:
         query = ""
 
-    matching_sites = find_matching_sites(site_name, urls_data)
-
-    items = []
-    for site in matching_sites:
-        for browser in browsers.split(','):
-            items.extend([
-                parse_item(site, browser.strip(), query),
-            ])
-
-
+    items_generate = find_matching_sites(site_name, urls_data, browsers.split(','), query)
+    items = list(itertools.islice(items_generate, 10))
     print(json.dumps({"items": items}))
 
 main()
