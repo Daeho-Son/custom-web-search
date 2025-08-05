@@ -266,5 +266,13 @@
   "papago": {
     "base": "https://papago.naver.com/",
     "query": "https://papago.naver.com/?sk=auto&tk=ko&hn=0&st={query}"
+  },
+  "instagram": {
+	"base": "https://www.instagram.com/",
+	"query": "https://www.instagram.com/{query}"
+  },
+  "speller": {
+	"base": "https://www.saramin.co.kr/zf_user/tools/character-counter",
+	"query": "https://www.saramin.co.kr/zf_user/tools/character-counter"
   }
 }
