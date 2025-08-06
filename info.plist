@@ -188,7 +188,7 @@
 		<array>
 			<dict>
 				<key>destinationuid</key>
-				<string>DFBCC54B-A35A-4B79-A9DD-0F8F09ED7BEC</string>
+				<string>3097B61B-58EB-42EA-B397-0EA4E72143B0</string>
 				<key>modifiers</key>
 				<integer>0</integer>
 				<key>modifiersubtext</key>
@@ -250,7 +250,7 @@
 		<array>
 			<dict>
 				<key>destinationuid</key>
-				<string>EB72A0F7-B8AE-4F35-B0FE-4BB6734CB8FA</string>
+				<string>270400E4-266C-4F23-ADC8-DF39D1282691</string>
 				<key>modifiers</key>
 				<integer>0</integer>
 				<key>modifiersubtext</key>
@@ -329,32 +329,6 @@
 			<dict>
 				<key>destinationuid</key>
 				<string>804A6B3E-C470-40E9-AB9E-EDF02EAEBAA0</string>
-				<key>modifiers</key>
-				<integer>0</integer>
-				<key>modifiersubtext</key>
-				<string></string>
-				<key>vitoclose</key>
-				<false/>
-			</dict>
-		</array>
-		<key>DFBCC54B-A35A-4B79-A9DD-0F8F09ED7BEC</key>
-		<array>
-			<dict>
-				<key>destinationuid</key>
-				<string>3097B61B-58EB-42EA-B397-0EA4E72143B0</string>
-				<key>modifiers</key>
-				<integer>0</integer>
-				<key>modifiersubtext</key>
-				<string></string>
-				<key>vitoclose</key>
-				<false/>
-			</dict>
-		</array>
-		<key>EB72A0F7-B8AE-4F35-B0FE-4BB6734CB8FA</key>
-		<array>
-			<dict>
-				<key>destinationuid</key>
-				<string>270400E4-266C-4F23-ADC8-DF39D1282691</string>
 				<key>modifiers</key>
 				<integer>0</integer>
 				<key>modifiersubtext</key>
@@ -610,6 +584,410 @@ bash ./site_search.sh "$is_new_window" "$browser" "$site" "$query" "./urls.json"
 		<dict>
 			<key>config</key>
 			<dict>
+				<key>concurrently</key>
+				<false/>
+				<key>escaping</key>
+				<integer>102</integer>
+				<key>script</key>
+				<string>cd ./script/search/
+bash ./browser_search.sh "$is_new_window" "$browser" "$site" "$1" ./urls.json</string>
+				<key>scriptargtype</key>
+				<integer>1</integer>
+				<key>scriptfile</key>
+				<string></string>
+				<key>type</key>
+				<integer>0</integer>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.script</string>
+			<key>uid</key>
+			<string>3097B61B-58EB-42EA-B397-0EA4E72143B0</string>
+			<key>version</key>
+			<integer>2</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>browser</key>
+				<string>com.naver.Whale</string>
+				<key>searcher</key>
+				<integer>1635218546</integer>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.systemwebsearch</string>
+			<key>uid</key>
+			<string>47C9D867-6D1A-45C7-9F54-2303C2BAB2CA</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argumenttype</key>
+				<integer>1</integer>
+				<key>keyword</key>
+				<string>translate</string>
+				<key>subtext</key>
+				<string></string>
+				<key>text</key>
+				<string>Search Google translate for 'query' in Chrome</string>
+				<key>withspace</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.keyword</string>
+			<key>uid</key>
+			<string>D294E3BF-DCE1-47F8-AB90-4BA6CD0D27FC</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argument</key>
+				<string>{query}</string>
+				<key>passthroughargument</key>
+				<false/>
+				<key>variables</key>
+				<dict>
+					<key>is_new_window</key>
+					<string>0</string>
+				</dict>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.utility.argument</string>
+			<key>uid</key>
+			<string>51915B3E-A6B9-4A4A-8CC2-EA193C2FD74C</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>browser</key>
+				<string>com.google.Chrome</string>
+				<key>searcher</key>
+				<integer>1635218546</integer>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.systemwebsearch</string>
+			<key>uid</key>
+			<string>EE90F639-4D68-4A10-BF34-8C11CCF2FD2C</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argumenttype</key>
+				<integer>1</integer>
+				<key>keyword</key>
+				<string>translate</string>
+				<key>subtext</key>
+				<string></string>
+				<key>text</key>
+				<string>Search Google translate for 'query' in Whale</string>
+				<key>withspace</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.keyword</string>
+			<key>uid</key>
+			<string>B5BA3DC0-ED4A-4ECC-8F8C-1110B3A0F857</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argumenttype</key>
+				<integer>1</integer>
+				<key>keyword</key>
+				<string>whale</string>
+				<key>subtext</key>
+				<string></string>
+				<key>text</key>
+				<string>Open/Search in Whale</string>
+				<key>withspace</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.keyword</string>
+			<key>uid</key>
+			<string>0D29CAFD-D4D7-4B54-9048-9845C2DFA366</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argument</key>
+				<string>{query}</string>
+				<key>passthroughargument</key>
+				<false/>
+				<key>variables</key>
+				<dict>
+					<key>browser</key>
+					<string>Whale</string>
+					<key>site</key>
+					<string>google</string>
+				</dict>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.utility.argument</string>
+			<key>uid</key>
+			<string>5DAD94D2-0000-4122-B027-5E16297889BA</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argument</key>
+				<string>'{query}', {allvars}</string>
+				<key>cleardebuggertext</key>
+				<false/>
+				<key>processoutputs</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.utility.debug</string>
+			<key>uid</key>
+			<string>6FA7B19D-BAB6-4483-BFF6-D49A0FDF0F06</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argument</key>
+				<string>{query}</string>
+				<key>passthroughargument</key>
+				<false/>
+				<key>variables</key>
+				<dict>
+					<key>is_new_window</key>
+					<string>1</string>
+				</dict>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.utility.argument</string>
+			<key>uid</key>
+			<string>0F86E6EF-4549-426E-A07B-696E810C19C3</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>browser</key>
+				<string>com.naver.Whale</string>
+				<key>skipqueryencode</key>
+				<false/>
+				<key>skipvarencode</key>
+				<false/>
+				<key>spaces</key>
+				<string></string>
+				<key>url</key>
+				<string>https://papago.naver.com/?sk=auto&amp;tk=ko&amp;hn=0&amp;st={query}</string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.openurl</string>
+			<key>uid</key>
+			<string>1138106B-8AB7-4AFE-A7C5-9356AE2DD02B</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argumenttype</key>
+				<integer>1</integer>
+				<key>keyword</key>
+				<string>chrome</string>
+				<key>subtext</key>
+				<string></string>
+				<key>text</key>
+				<string>Open/Search in Chrome</string>
+				<key>withspace</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.keyword</string>
+			<key>uid</key>
+			<string>18C22454-C90C-4A20-A057-4076297784BA</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argumenttype</key>
+				<integer>1</integer>
+				<key>keyword</key>
+				<string>papago</string>
+				<key>subtext</key>
+				<string></string>
+				<key>text</key>
+				<string>Search Papago for 'query' in Whale</string>
+				<key>withspace</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.keyword</string>
+			<key>uid</key>
+			<string>6C83AD18-DC07-4590-B121-85571ED15A97</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>concurrently</key>
+				<false/>
+				<key>escaping</key>
+				<integer>102</integer>
+				<key>script</key>
+				<string>cd ./script/search/
+bash ./browser_search.sh "$is_new_window" "$browser" "$site" "$1" ./urls.json</string>
+				<key>scriptargtype</key>
+				<integer>1</integer>
+				<key>scriptfile</key>
+				<string></string>
+				<key>type</key>
+				<integer>0</integer>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.script</string>
+			<key>uid</key>
+			<string>270400E4-266C-4F23-ADC8-DF39D1282691</string>
+			<key>version</key>
+			<integer>2</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>browser</key>
+				<string>com.google.Chrome</string>
+				<key>skipqueryencode</key>
+				<false/>
+				<key>skipvarencode</key>
+				<false/>
+				<key>spaces</key>
+				<string></string>
+				<key>url</key>
+				<string>https://papago.naver.com/?sk=auto&amp;tk=ko&amp;hn=0&amp;st={query}</string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.openurl</string>
+			<key>uid</key>
+			<string>D0786F43-7656-47A3-8672-798291506744</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argumenttype</key>
+				<integer>1</integer>
+				<key>keyword</key>
+				<string>papago</string>
+				<key>subtext</key>
+				<string></string>
+				<key>text</key>
+				<string>Search Papago for 'query' in Chrome</string>
+				<key>withspace</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.keyword</string>
+			<key>uid</key>
+			<string>A14058F8-6A26-4D5B-8B4D-5315B2CAA6CA</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argument</key>
+				<string>{query}</string>
+				<key>passthroughargument</key>
+				<false/>
+				<key>variables</key>
+				<dict>
+					<key>is_new_window</key>
+					<string>0</string>
+				</dict>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.utility.argument</string>
+			<key>uid</key>
+			<string>710409ED-1266-417A-9710-33D3EAAA6C1B</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argument</key>
+				<string>{query}</string>
+				<key>passthroughargument</key>
+				<false/>
+				<key>variables</key>
+				<dict>
+					<key>browser</key>
+					<string>Google Chrome</string>
+					<key>site</key>
+					<string>google</string>
+				</dict>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.utility.argument</string>
+			<key>uid</key>
+			<string>804A6B3E-C470-40E9-AB9E-EDF02EAEBAA0</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argument</key>
+				<string>'{query}', {allvars}</string>
+				<key>cleardebuggertext</key>
+				<false/>
+				<key>processoutputs</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.utility.debug</string>
+			<key>uid</key>
+			<string>F5A7FC0F-EE50-4ACA-BD5B-AA8C5AD7743A</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argument</key>
+				<string>{query}</string>
+				<key>passthroughargument</key>
+				<false/>
+				<key>variables</key>
+				<dict>
+					<key>is_new_window</key>
+					<string>1</string>
+				</dict>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.utility.argument</string>
+			<key>uid</key>
+			<string>DC56D889-DEE8-4378-B488-161F9A5C91FE</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
 				<key>argumenttype</key>
 				<integer>2</integer>
 				<key>keyword</key>
@@ -640,7 +1018,7 @@ bash ./site_search.sh "$is_new_window" "$browser" "$site" "$query" "./urls.json"
 				<key>spaces</key>
 				<string></string>
 				<key>url</key>
-				<string>https://sondho.tistory.com/</string>
+				<string>https://{var:TISTORY_NAME}.tistory.com/</string>
 			</dict>
 			<key>type</key>
 			<string>alfred.workflow.action.openurl</string>
@@ -661,7 +1039,7 @@ bash ./site_search.sh "$is_new_window" "$browser" "$site" "$query" "./urls.json"
 				<key>spaces</key>
 				<string></string>
 				<key>url</key>
-				<string>https://sondho.tistory.com/</string>
+				<string>https://{var:TISTORY_NAME}.tistory.com/</string>
 			</dict>
 			<key>type</key>
 			<string>alfred.workflow.action.openurl</string>
@@ -785,120 +1163,6 @@ open -a "Whale" "whale://history"</string>
 			<key>config</key>
 			<dict>
 				<key>browser</key>
-				<string>com.naver.Whale</string>
-				<key>searcher</key>
-				<integer>1635218546</integer>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.action.systemwebsearch</string>
-			<key>uid</key>
-			<string>47C9D867-6D1A-45C7-9F54-2303C2BAB2CA</string>
-			<key>version</key>
-			<integer>1</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
-				<key>argumenttype</key>
-				<integer>1</integer>
-				<key>keyword</key>
-				<string>translate</string>
-				<key>subtext</key>
-				<string></string>
-				<key>text</key>
-				<string>Search Google translate for 'query' in Chrome</string>
-				<key>withspace</key>
-				<true/>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.input.keyword</string>
-			<key>uid</key>
-			<string>D294E3BF-DCE1-47F8-AB90-4BA6CD0D27FC</string>
-			<key>version</key>
-			<integer>1</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
-				<key>browser</key>
-				<string>com.google.Chrome</string>
-				<key>searcher</key>
-				<integer>1635218546</integer>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.action.systemwebsearch</string>
-			<key>uid</key>
-			<string>EE90F639-4D68-4A10-BF34-8C11CCF2FD2C</string>
-			<key>version</key>
-			<integer>1</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
-				<key>argumenttype</key>
-				<integer>1</integer>
-				<key>keyword</key>
-				<string>translate</string>
-				<key>subtext</key>
-				<string></string>
-				<key>text</key>
-				<string>Search Google translate for 'query' in Whale</string>
-				<key>withspace</key>
-				<true/>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.input.keyword</string>
-			<key>uid</key>
-			<string>B5BA3DC0-ED4A-4ECC-8F8C-1110B3A0F857</string>
-			<key>version</key>
-			<integer>1</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
-				<key>browser</key>
-				<string>com.naver.Whale</string>
-				<key>skipqueryencode</key>
-				<false/>
-				<key>skipvarencode</key>
-				<false/>
-				<key>spaces</key>
-				<string></string>
-				<key>url</key>
-				<string>https://papago.naver.com/?sk=auto&amp;tk=ko&amp;hn=0&amp;st={query}</string>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.action.openurl</string>
-			<key>uid</key>
-			<string>1138106B-8AB7-4AFE-A7C5-9356AE2DD02B</string>
-			<key>version</key>
-			<integer>1</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
-				<key>argumenttype</key>
-				<integer>1</integer>
-				<key>keyword</key>
-				<string>papago</string>
-				<key>subtext</key>
-				<string></string>
-				<key>text</key>
-				<string>Search Papago for 'query' in Whale</string>
-				<key>withspace</key>
-				<true/>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.input.keyword</string>
-			<key>uid</key>
-			<string>6C83AD18-DC07-4590-B121-85571ED15A97</string>
-			<key>version</key>
-			<integer>1</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
-				<key>browser</key>
 				<string>com.google.Chrome</string>
 				<key>skipqueryencode</key>
 				<false/>
@@ -907,212 +1171,7 @@ open -a "Whale" "whale://history"</string>
 				<key>spaces</key>
 				<string></string>
 				<key>url</key>
-				<string>https://papago.naver.com/?sk=auto&amp;tk=ko&amp;hn=0&amp;st={query}</string>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.action.openurl</string>
-			<key>uid</key>
-			<string>D0786F43-7656-47A3-8672-798291506744</string>
-			<key>version</key>
-			<integer>1</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
-				<key>argumenttype</key>
-				<integer>1</integer>
-				<key>keyword</key>
-				<string>papago</string>
-				<key>subtext</key>
-				<string></string>
-				<key>text</key>
-				<string>Search Papago for 'query' in Chrome</string>
-				<key>withspace</key>
-				<true/>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.input.keyword</string>
-			<key>uid</key>
-			<string>A14058F8-6A26-4D5B-8B4D-5315B2CAA6CA</string>
-			<key>version</key>
-			<integer>1</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
-				<key>concurrently</key>
-				<false/>
-				<key>escaping</key>
-				<integer>102</integer>
-				<key>script</key>
-				<string>cd ./script/search/
-bash ./browser_search.sh "$is_new_window" "$browser" "$site" "$1" ./urls.json</string>
-				<key>scriptargtype</key>
-				<integer>1</integer>
-				<key>scriptfile</key>
-				<string></string>
-				<key>type</key>
-				<integer>0</integer>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.action.script</string>
-			<key>uid</key>
-			<string>3097B61B-58EB-42EA-B397-0EA4E72143B0</string>
-			<key>version</key>
-			<integer>2</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
-				<key>argument</key>
-				<string>{query}</string>
-				<key>passthroughargument</key>
-				<false/>
-				<key>variables</key>
-				<dict>
-					<key>is_new_window</key>
-					<string>0</string>
-				</dict>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.utility.argument</string>
-			<key>uid</key>
-			<string>51915B3E-A6B9-4A4A-8CC2-EA193C2FD74C</string>
-			<key>version</key>
-			<integer>1</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
-				<key>argumenttype</key>
-				<integer>1</integer>
-				<key>keyword</key>
-				<string>whale</string>
-				<key>subtext</key>
-				<string></string>
-				<key>text</key>
-				<string>Open/Search in Whale</string>
-				<key>withspace</key>
-				<true/>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.input.keyword</string>
-			<key>uid</key>
-			<string>0D29CAFD-D4D7-4B54-9048-9845C2DFA366</string>
-			<key>version</key>
-			<integer>1</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
-				<key>argument</key>
-				<string>{query}</string>
-				<key>passthroughargument</key>
-				<false/>
-				<key>variables</key>
-				<dict>
-					<key>site</key>
-					<string>google</string>
-				</dict>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.utility.argument</string>
-			<key>uid</key>
-			<string>5DAD94D2-0000-4122-B027-5E16297889BA</string>
-			<key>version</key>
-			<integer>1</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
-				<key>argument</key>
-				<string>{query}</string>
-				<key>passthroughargument</key>
-				<false/>
-				<key>variables</key>
-				<dict>
-					<key>browser</key>
-					<string>Whale</string>
-				</dict>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.utility.argument</string>
-			<key>uid</key>
-			<string>DFBCC54B-A35A-4B79-A9DD-0F8F09ED7BEC</string>
-			<key>version</key>
-			<integer>1</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
-				<key>argument</key>
-				<string>'{query}', {allvars}</string>
-				<key>cleardebuggertext</key>
-				<false/>
-				<key>processoutputs</key>
-				<true/>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.utility.debug</string>
-			<key>uid</key>
-			<string>6FA7B19D-BAB6-4483-BFF6-D49A0FDF0F06</string>
-			<key>version</key>
-			<integer>1</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
-				<key>argument</key>
-				<string>{query}</string>
-				<key>passthroughargument</key>
-				<false/>
-				<key>variables</key>
-				<dict>
-					<key>is_new_window</key>
-					<string>1</string>
-				</dict>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.utility.argument</string>
-			<key>uid</key>
-			<string>0F86E6EF-4549-426E-A07B-696E810C19C3</string>
-			<key>version</key>
-			<integer>1</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
-				<key>argumenttype</key>
-				<integer>1</integer>
-				<key>keyword</key>
-				<string>chrome</string>
-				<key>subtext</key>
-				<string></string>
-				<key>text</key>
-				<string>Open/Search in Chrome</string>
-				<key>withspace</key>
-				<true/>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.input.keyword</string>
-			<key>uid</key>
-			<string>18C22454-C90C-4A20-A057-4076297784BA</string>
-			<key>version</key>
-			<integer>1</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
-				<key>browser</key>
-				<string>com.google.Chrome</string>
-				<key>skipqueryencode</key>
-				<false/>
-				<key>skipvarencode</key>
-				<false/>
-				<key>spaces</key>
-				<string></string>
-				<key>url</key>
-				<string>https://github.com/Daeho-Son</string>
+				<string>https://github.com/{var:GITHUB_USERNAME}</string>
 			</dict>
 			<key>type</key>
 			<string>alfred.workflow.action.openurl</string>
@@ -1120,30 +1179,6 @@ bash ./browser_search.sh "$is_new_window" "$browser" "$site" "$1" ./urls.json</s
 			<string>2E25A659-05F4-4E64-B894-2182F78401CB</string>
 			<key>version</key>
 			<integer>1</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
-				<key>concurrently</key>
-				<false/>
-				<key>escaping</key>
-				<integer>102</integer>
-				<key>script</key>
-				<string>cd ./script/search/
-bash ./browser_search.sh "$is_new_window" "$browser" "$site" "$1" ./urls.json</string>
-				<key>scriptargtype</key>
-				<integer>1</integer>
-				<key>scriptfile</key>
-				<string></string>
-				<key>type</key>
-				<integer>0</integer>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.action.script</string>
-			<key>uid</key>
-			<string>270400E4-266C-4F23-ADC8-DF39D1282691</string>
-			<key>version</key>
-			<integer>2</integer>
 		</dict>
 		<dict>
 			<key>config</key>
@@ -1166,103 +1201,6 @@ bash ./browser_search.sh "$is_new_window" "$browser" "$site" "$1" ./urls.json</s
 			<key>version</key>
 			<integer>1</integer>
 		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
-				<key>argument</key>
-				<string>{query}</string>
-				<key>passthroughargument</key>
-				<false/>
-				<key>variables</key>
-				<dict>
-					<key>is_new_window</key>
-					<string>0</string>
-				</dict>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.utility.argument</string>
-			<key>uid</key>
-			<string>710409ED-1266-417A-9710-33D3EAAA6C1B</string>
-			<key>version</key>
-			<integer>1</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
-				<key>argument</key>
-				<string>{query}</string>
-				<key>passthroughargument</key>
-				<false/>
-				<key>variables</key>
-				<dict>
-					<key>site</key>
-					<string>google</string>
-				</dict>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.utility.argument</string>
-			<key>uid</key>
-			<string>804A6B3E-C470-40E9-AB9E-EDF02EAEBAA0</string>
-			<key>version</key>
-			<integer>1</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
-				<key>argument</key>
-				<string>'{query}', {allvars}</string>
-				<key>cleardebuggertext</key>
-				<false/>
-				<key>processoutputs</key>
-				<true/>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.utility.debug</string>
-			<key>uid</key>
-			<string>F5A7FC0F-EE50-4ACA-BD5B-AA8C5AD7743A</string>
-			<key>version</key>
-			<integer>1</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
-				<key>argument</key>
-				<string>{query}</string>
-				<key>passthroughargument</key>
-				<false/>
-				<key>variables</key>
-				<dict>
-					<key>browser</key>
-					<string>Google Chrome</string>
-				</dict>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.utility.argument</string>
-			<key>uid</key>
-			<string>EB72A0F7-B8AE-4F35-B0FE-4BB6734CB8FA</string>
-			<key>version</key>
-			<integer>1</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
-				<key>argument</key>
-				<string>{query}</string>
-				<key>passthroughargument</key>
-				<false/>
-				<key>variables</key>
-				<dict>
-					<key>is_new_window</key>
-					<string>1</string>
-				</dict>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.utility.argument</string>
-			<key>uid</key>
-			<string>DC56D889-DEE8-4378-B488-161F9A5C91FE</string>
-			<key>version</key>
-			<integer>1</integer>
-		</dict>
 	</array>
 	<key>readme</key>
 	<string>Custom web search</string>
@@ -1271,290 +1209,272 @@ bash ./browser_search.sh "$is_new_window" "$browser" "$site" "$1" ./urls.json</s
 		<key>0C133A71-52D0-4131-9704-6D35274F40F2</key>
 		<dict>
 			<key>xpos</key>
-			<real>890</real>
+			<real>125</real>
 			<key>ypos</key>
-			<real>845</real>
+			<real>705</real>
 		</dict>
 		<key>0D29CAFD-D4D7-4B54-9048-9845C2DFA366</key>
 		<dict>
 			<key>xpos</key>
-			<real>50</real>
+			<real>125</real>
 			<key>ypos</key>
-			<real>1095</real>
+			<real>330</real>
 		</dict>
 		<key>0E550C43-C38C-47DC-8D20-DA2442B1AB39</key>
 		<dict>
 			<key>xpos</key>
-			<real>445</real>
+			<real>720</real>
 			<key>ypos</key>
-			<real>710</real>
+			<real>210</real>
 		</dict>
 		<key>0F86E6EF-4549-426E-A07B-696E810C19C3</key>
 		<dict>
 			<key>xpos</key>
-			<real>270</real>
+			<real>385</real>
 			<key>ypos</key>
-			<real>1155</real>
+			<real>390</real>
 		</dict>
 		<key>1138106B-8AB7-4AFE-A7C5-9356AE2DD02B</key>
 		<dict>
 			<key>xpos</key>
-			<real>1110</real>
+			<real>1200</real>
 			<key>ypos</key>
-			<real>970</real>
+			<real>455</real>
 		</dict>
 		<key>180D84E1-1913-4E36-AAE1-C6130E6BC0CC</key>
 		<dict>
 			<key>xpos</key>
-			<real>1480</real>
+			<real>715</real>
 			<key>ypos</key>
-			<real>845</real>
+			<real>705</real>
 		</dict>
 		<key>18C22454-C90C-4A20-A057-4076297784BA</key>
 		<dict>
 			<key>xpos</key>
-			<real>50</real>
+			<real>125</real>
 			<key>ypos</key>
-			<real>1220</real>
+			<real>455</real>
 		</dict>
 		<key>270400E4-266C-4F23-ADC8-DF39D1282691</key>
 		<dict>
 			<key>xpos</key>
-			<real>645</real>
+			<real>720</real>
 			<key>ypos</key>
-			<real>1220</real>
+			<real>455</real>
 		</dict>
 		<key>2954AE3A-59FB-4B60-927E-67A59988A53A</key>
 		<dict>
 			<key>xpos</key>
-			<real>425</real>
+			<real>500</real>
 			<key>ypos</key>
-			<real>840</real>
+			<real>580</real>
 		</dict>
 		<key>2E25A659-05F4-4E64-B894-2182F78401CB</key>
 		<dict>
 			<key>xpos</key>
-			<real>1110</real>
+			<real>345</real>
 			<key>ypos</key>
-			<real>1220</real>
+			<real>830</real>
 		</dict>
 		<key>3097B61B-58EB-42EA-B397-0EA4E72143B0</key>
 		<dict>
 			<key>xpos</key>
-			<real>645</real>
+			<real>720</real>
 			<key>ypos</key>
-			<real>1095</real>
+			<real>330</real>
 		</dict>
 		<key>3DFD6F05-A55E-420B-AB00-7E4376AD2AE5</key>
 		<dict>
 			<key>xpos</key>
-			<real>1110</real>
+			<real>345</real>
 			<key>ypos</key>
-			<real>845</real>
+			<real>705</real>
 		</dict>
 		<key>43A82D6C-C24F-4D92-BC62-BE33080813D9</key>
 		<dict>
 			<key>xpos</key>
-			<real>310</real>
+			<real>385</real>
 			<key>ypos</key>
-			<real>770</real>
+			<real>270</real>
 		</dict>
 		<key>4729CE27-9300-478A-B66A-454319AC22C9</key>
 		<dict>
 			<key>xpos</key>
-			<real>595</real>
+			<real>870</real>
 			<key>ypos</key>
-			<real>740</real>
+			<real>240</real>
 		</dict>
 		<key>47C9D867-6D1A-45C7-9F54-2303C2BAB2CA</key>
 		<dict>
 			<key>xpos</key>
-			<real>270</real>
+			<real>1200</real>
 			<key>ypos</key>
-			<real>965</real>
+			<real>330</real>
 		</dict>
 		<key>51915B3E-A6B9-4A4A-8CC2-EA193C2FD74C</key>
 		<dict>
 			<key>xpos</key>
-			<real>270</real>
+			<real>385</real>
 			<key>ypos</key>
-			<real>1095</real>
+			<real>330</real>
 		</dict>
 		<key>553329B6-51E8-4E21-9ACC-3BD7D31FB0FA</key>
 		<dict>
 			<key>xpos</key>
-			<real>205</real>
+			<real>345</real>
 			<key>ypos</key>
-			<real>555</real>
+			<real>85</real>
 		</dict>
 		<key>5797D295-B109-4343-9082-50ED00A5D744</key>
 		<dict>
 			<key>xpos</key>
-			<real>1260</real>
+			<real>495</real>
 			<key>ypos</key>
-			<real>845</real>
+			<real>705</real>
 		</dict>
 		<key>5DAD94D2-0000-4122-B027-5E16297889BA</key>
 		<dict>
 			<key>note</key>
 			<string>NAME</string>
 			<key>xpos</key>
-			<real>425</real>
+			<real>540</real>
 			<key>ypos</key>
-			<real>1125</real>
+			<real>360</real>
 		</dict>
 		<key>6926AED1-CA4D-4805-B960-CFB6283F70C9</key>
 		<dict>
 			<key>xpos</key>
-			<real>645</real>
+			<real>720</real>
 			<key>ypos</key>
-			<real>840</real>
+			<real>580</real>
 		</dict>
 		<key>6AD7857A-5C2B-48BD-B60A-1BD5EFAEC3FA</key>
 		<dict>
 			<key>xpos</key>
-			<real>270</real>
+			<real>345</real>
 			<key>ypos</key>
-			<real>840</real>
+			<real>580</real>
 		</dict>
 		<key>6C83AD18-DC07-4590-B121-85571ED15A97</key>
 		<dict>
 			<key>xpos</key>
-			<real>890</real>
+			<real>980</real>
 			<key>ypos</key>
-			<real>970</real>
+			<real>455</real>
 		</dict>
 		<key>6CE0CF46-1629-4243-8AD9-830E5EB09265</key>
 		<dict>
 			<key>xpos</key>
-			<real>50</real>
+			<real>125</real>
 			<key>ypos</key>
-			<real>705</real>
+			<real>205</real>
 		</dict>
 		<key>6FA7B19D-BAB6-4483-BFF6-D49A0FDF0F06</key>
 		<dict>
 			<key>xpos</key>
-			<real>785</real>
+			<real>860</real>
 			<key>ypos</key>
-			<real>1125</real>
+			<real>360</real>
 		</dict>
 		<key>710409ED-1266-417A-9710-33D3EAAA6C1B</key>
 		<dict>
 			<key>xpos</key>
-			<real>270</real>
+			<real>385</real>
 			<key>ypos</key>
-			<real>1220</real>
+			<real>455</real>
 		</dict>
 		<key>804A6B3E-C470-40E9-AB9E-EDF02EAEBAA0</key>
 		<dict>
 			<key>note</key>
 			<string>NAME</string>
 			<key>xpos</key>
-			<real>425</real>
+			<real>540</real>
 			<key>ypos</key>
-			<real>1250</real>
+			<real>485</real>
 		</dict>
 		<key>8076351E-5F7A-4AF0-A980-198F4A572F1A</key>
 		<dict>
 			<key>xpos</key>
-			<real>310</real>
+			<real>385</real>
 			<key>ypos</key>
-			<real>710</real>
+			<real>210</real>
 		</dict>
 		<key>9A954BDE-0E98-488F-A47C-0FCEE43A9A8D</key>
 		<dict>
 			<key>xpos</key>
-			<real>30</real>
+			<real>125</real>
 			<key>ypos</key>
-			<real>550</real>
+			<real>80</real>
 		</dict>
 		<key>A14058F8-6A26-4D5B-8B4D-5315B2CAA6CA</key>
 		<dict>
 			<key>xpos</key>
-			<real>1265</real>
+			<real>1355</real>
 			<key>ypos</key>
-			<real>970</real>
+			<real>455</real>
 		</dict>
 		<key>B5BA3DC0-ED4A-4ECC-8F8C-1110B3A0F857</key>
 		<dict>
 			<key>xpos</key>
-			<real>50</real>
+			<real>980</real>
 			<key>ypos</key>
-			<real>965</real>
+			<real>330</real>
 		</dict>
 		<key>D0786F43-7656-47A3-8672-798291506744</key>
 		<dict>
 			<key>xpos</key>
-			<real>1485</real>
+			<real>1575</real>
 			<key>ypos</key>
-			<real>970</real>
+			<real>455</real>
 		</dict>
 		<key>D294E3BF-DCE1-47F8-AB90-4BA6CD0D27FC</key>
 		<dict>
 			<key>xpos</key>
-			<real>425</real>
+			<real>1355</real>
 			<key>ypos</key>
-			<real>965</real>
+			<real>330</real>
 		</dict>
 		<key>DC56D889-DEE8-4378-B488-161F9A5C91FE</key>
 		<dict>
 			<key>xpos</key>
-			<real>270</real>
+			<real>385</real>
 			<key>ypos</key>
-			<real>1280</real>
-		</dict>
-		<key>DFBCC54B-A35A-4B79-A9DD-0F8F09ED7BEC</key>
-		<dict>
-			<key>note</key>
-			<string>BROWSER</string>
-			<key>xpos</key>
-			<real>545</real>
-			<key>ypos</key>
-			<real>1125</real>
+			<real>515</real>
 		</dict>
 		<key>E2BF5B63-B173-446B-A607-C8E05DB8E66F</key>
 		<dict>
 			<key>xpos</key>
-			<real>425</real>
+			<real>565</real>
 			<key>ypos</key>
-			<real>575</real>
-		</dict>
-		<key>EB72A0F7-B8AE-4F35-B0FE-4BB6734CB8FA</key>
-		<dict>
-			<key>note</key>
-			<string>BROWSER</string>
-			<key>xpos</key>
-			<real>545</real>
-			<key>ypos</key>
-			<real>1250</real>
+			<real>115</real>
 		</dict>
 		<key>EC34AD7C-6F00-41B5-9878-2DA235AEA5AD</key>
 		<dict>
 			<key>xpos</key>
-			<real>50</real>
+			<real>125</real>
 			<key>ypos</key>
-			<real>840</real>
+			<real>580</real>
 		</dict>
 		<key>EE90F639-4D68-4A10-BF34-8C11CCF2FD2C</key>
 		<dict>
 			<key>xpos</key>
-			<real>645</real>
+			<real>1575</real>
 			<key>ypos</key>
-			<real>965</real>
+			<real>330</real>
 		</dict>
 		<key>F57ECFBD-0B8E-40EB-B7E6-2D2CEBA940D5</key>
 		<dict>
 			<key>xpos</key>
-			<real>890</real>
+			<real>125</real>
 			<key>ypos</key>
-			<real>1220</real>
+			<real>830</real>
 		</dict>
 		<key>F5A7FC0F-EE50-4ACA-BD5B-AA8C5AD7743A</key>
 		<dict>
 			<key>xpos</key>
-			<real>785</real>
+			<real>860</real>
 			<key>ypos</key>
-			<real>1250</real>
+			<real>485</real>
 		</dict>
 	</dict>
 	<key>userconfigurationconfig</key>
@@ -1565,7 +1485,7 @@ bash ./browser_search.sh "$is_new_window" "$browser" "$site" "$1" ./urls.json</s
 				<key>default</key>
 				<string>Google Chrome</string>
 				<key>placeholder</key>
-				<string>browsers</string>
+				<string></string>
 				<key>required</key>
 				<true/>
 				<key>trim</key>
@@ -1579,6 +1499,48 @@ bash ./browser_search.sh "$is_new_window" "$browser" "$site" "$1" ./urls.json</s
 			<string>textfield</string>
 			<key>variable</key>
 			<string>BROWSERS</string>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>default</key>
+				<string></string>
+				<key>placeholder</key>
+				<string></string>
+				<key>required</key>
+				<true/>
+				<key>trim</key>
+				<true/>
+			</dict>
+			<key>description</key>
+			<string>Enter GitHub account name. ex) https://github.com/XXXXXX</string>
+			<key>label</key>
+			<string>Github Username</string>
+			<key>type</key>
+			<string>textfield</string>
+			<key>variable</key>
+			<string>GITHUB_USERNAME</string>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>default</key>
+				<string></string>
+				<key>placeholder</key>
+				<string></string>
+				<key>required</key>
+				<false/>
+				<key>trim</key>
+				<true/>
+			</dict>
+			<key>description</key>
+			<string>Please enter a name that can be included in the Tistory address. ex) XXXXX.tistory.com</string>
+			<key>label</key>
+			<string>Tistory Name</string>
+			<key>type</key>
+			<string>textfield</string>
+			<key>variable</key>
+			<string>TISTORY_NAME</string>
 		</dict>
 	</array>
 	<key>version</key>

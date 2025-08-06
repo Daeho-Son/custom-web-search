@@ -4,5 +4,9 @@
 <dict>
 	<key>BROWSERS</key>
 	<string>Google Chrome, Whale</string>
+	<key>GITHUB_USERNAME</key>
+	<string>Daeho-Son</string>
+	<key>TISTORY_NAME</key>
+	<string>sondho</string>
 </dict>
 </plist>
