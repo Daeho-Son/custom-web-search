@@ -8,7 +8,7 @@ def parse_item_exclude_arg(item):
         "uid": item,
         "title": item,
         "subtitle": "Type a search keyword and press Enter or just Enter.",
-        "autocomplete": item,
+        "autocomplete": f'{item} ',
         "icon": {
             "path": f"./logos/{item}.png"
         }
@@ -42,6 +42,10 @@ def build_alfred_process_items(site_name, browsers, query):
     for browser in browsers:
         yield parse_item_include_arg(site_name, browser.strip(), query)
 
+def is_include_keyword(keyword, site_url_json):
+    if site_url_json.get(keyword) is None:
+        return False
+    return True
 
 def main():
     keyword = sys.argv[1]
@@ -52,7 +56,10 @@ def main():
         query = ' '.join(sys.argv[2:])
         items = list(build_alfred_process_items(keyword, browsers.split(','), query))
     else:
-        items = list(find_matched_site_names(keyword, site_url_json))
+        if not is_include_keyword(keyword, site_url_json):
+            items = list(find_matched_site_names(keyword, site_url_json))
+        else:
+            items = list(build_alfred_process_items(keyword, browsers.split(','), ''))
 
     print(json.dumps({"items": items}))
 
