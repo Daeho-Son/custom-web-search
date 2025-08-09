@@ -274,9 +274,5 @@
   "speller": {
     "base_url": "https://www.saramin.co.kr/zf_user/tools/character-counter",
     "query_url": "https://www.saramin.co.kr/zf_user/tools/character-counter"
-  },
-  "translate": {
-    "base": "https://translate.google.com",
-    "query_url": "https://translate.google.com/?sl=auto&tl=ko&text={search_query}&op=translate"
   }
 }
