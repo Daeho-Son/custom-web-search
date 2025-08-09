@@ -558,11 +558,7 @@ python3 script/go.py $1</string>
 				<key>escaping</key>
 				<integer>102</integer>
 				<key>script</key>
-				<string>browser=$(echo $1 | jq -r '.browser')
-site=$(echo $1 | jq -r '.site')
-query=$(echo $1 | jq -r '.query')
-
-cd ./script/search
+				<string>cd ./script/search
 bash ./site_search.sh "$is_new_window" "$browser" "$site" "$query" "./urls.json"</string>
 				<key>scriptargtype</key>
 				<integer>1</integer>

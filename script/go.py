@@ -23,11 +23,12 @@ def build_alfred_process_items(item, browsers, query=""):
         yield {
             "uid": item,
             "title": f"Search '{query}' in {item}" if query else f"Open {item}",
-            "arg": json.dumps({
+            "arg": " ",
+            "variables": {
                 "site": item,
                 "browser": open_browser,
                 "query": query
-            }),
+            },
             "autocomplete": f"{item + ' ' + query}",
             "icon": {
                 "path": f"./logos/{open_browser}.png"
