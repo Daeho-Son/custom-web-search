@@ -48,19 +48,16 @@ url=${url#\"} # url의 맨 앞에 있는 " 자르기
 
 # 입력 받은 query를 percent-encoding 변환
 code_points=$(bash ./utils/code_point_parser.sh "$query")
-echo "code_points: ${code_points}"
 query=$(python3 ./utils/percent_encoding_parser.py ${code_points[@]})
-echo "query: ${query}"
 echo "$query" > ./debug/5_parsed_query.txt
 
 
 # url에 있는 {query}를 qurl
-url=$(echo $url | sed "s/{search_query}/${query}/g")
+url=$(echo $url | sed "s|{search_query}|${query}|g")
 echo $url > ./debug/6_url.txt
 
 
 # open 실행 옵션 설정
-url=$(echo $url | sed "s/\$query/$encoded_query/g")
 if [[ $is_new_window == "0" ]]; then
 	open_option="-a"
 else
