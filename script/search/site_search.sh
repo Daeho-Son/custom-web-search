@@ -8,19 +8,18 @@ else
 	rm ./debug/*
 fi
 
-
 is_new_window=$1
 browser=$2
 site=$3
 query=$4
-urls_json=$5
+urls_json_file=$5
 
 
 echo -n "is_new_windows: $1
 browser: $2
 site: $3
 query: $4
-urls_json: $5" > ./debug/0_input_arguments.txt
+urls_json_file: $5" > ./debug/0_input_arguments.txt
 
 
 # jq 설치
@@ -38,22 +37,25 @@ fi
 
 # URL 가져오기
 if [[ $query == "" ]]; then
-	url=`cat $urls_json | jq ".$site.base"`
+	url=`cat $urls_json_file | jq ".$site.base_url"`
 else
-	url=`cat $urls_json | jq ".$site.query"`
+	url=`cat $urls_json_file | jq ".$site.query_url"`
 fi
+echo "url: $url"
 url=${url%\"} # url의 맨 뒤에 있는 " 자르기
 url=${url#\"} # url의 맨 앞에 있는 " 자르기
 
 
 # 입력 받은 query를 percent-encoding 변환
 code_points=$(bash ./utils/code_point_parser.sh "$query")
+echo "code_points: ${code_points}"
 query=$(python3 ./utils/percent_encoding_parser.py ${code_points[@]})
+echo "query: ${query}"
 echo "$query" > ./debug/5_parsed_query.txt
 
 
 # url에 있는 {query}를 qurl
-url=$(echo $url | sed "s/{query}/${query}/g")
+url=$(echo $url | sed "s/{search_query}/${query}/g")
 echo $url > ./debug/6_url.txt
 
 

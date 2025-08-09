@@ -1,278 +1,278 @@
 {
   "google": {
-    "base": "https://www.google.com/",
-    "query": "https://www.google.com/search?q={query}"
+    "base_url": "https://www.google.com/",
+    "query_url": "https://www.google.com/search?q={search_query}"
   },
   "youtube": {
-    "base": "https://www.youtube.com/",
-    "query": "https://www.youtube.com/results?search_query={query}"
+    "base_url": "https://www.youtube.com/",
+    "query_url": "https://www.youtube.com/results?search_query={search_query}"
   },
   "naver_map": {
-    "base": "https://map.naver.com/",
-    "query": "https://map.naver.com/v5/search/{query}"
+    "base_url": "https://map.naver.com/",
+    "query_url": "https://map.naver.com/v5/search/{search_query}"
   },
   "soundcloud": {
-    "base": "https://soundcloud.com/",
-    "query": "https://soundcloud.com/search?q={query}"
+    "base_url": "https://soundcloud.com/",
+    "query_url": "https://soundcloud.com/search?q={search_query}"
   },
   "bugs": {
-    "base": "https://music.bugs.co.kr/",
-    "query": "https://music.bugs.co.kr/search/integrated?q={query}"
+    "base_url": "https://music.bugs.co.kr/",
+    "query_url": "https://music.bugs.co.kr/search/integrated?q={search_query}"
   },
   "tunebat": {
-    "base": "https://tunebat.com/",
-    "query": "https://tunebat.com/Search?q={query}"
+    "base_url": "https://tunebat.com/",
+    "query_url": "https://tunebat.com/Search?q={search_query}"
   },
   "genie": {
-    "base": "https://www.genie.co.kr/",
-    "query": "https://www.genie.co.kr/search/searchMain?query={query}"
+    "base_url": "https://www.genie.co.kr/",
+    "query_url": "https://www.genie.co.kr/search/searchMain?query={search_query}"
   },
   "beatport": {
-    "base": "https://www.beatport.com",
-    "query": "https://www.beatport.com/search?q={query}"
+    "base_url": "https://www.beatport.com",
+    "query_url": "https://www.beatport.com/search?q={search_query}"
   },
   "twitter": {
-    "base": "https://twitter.com/",
-    "query": "https://twitter.com/search?q={query}"
+    "base_url": "https://twitter.com/",
+    "query_url": "https://twitter.com/search?q={search_query}"
   },
   "qoo10": {
-    "base": "https://www.qoo10.com/",
-    "query": "https://www.qoo10.com/s/{query}?keyword={query}&keyword_auto_change="
+    "base_url": "https://www.qoo10.com/",
+    "query_url": "https://www.qoo10.com/s/{search_query}?keyword={search_query}&keyword_auto_change="
   },
   "cplusplus": {
-    "base": "https://cplusplus.com/",
-    "query": "https://cplusplus.com/search.do?q={query}"
+    "base_url": "https://cplusplus.com/",
+    "query_url": "https://cplusplus.com/search.do?q={search_query}"
   },
   "cppreference": {
-    "base": "https://duckduckgo.com/",
-    "query": "https://duckduckgo.com/?sites=cppreference.com&q={query}"
+    "base_url": "https://duckduckgo.com/",
+    "query_url": "https://duckduckgo.com/?sites=cppreference.com&q={search_query}"
   },
   "intra42": {
-    "base": "https://profile.intra.42.fr/",
-    "query": "https://profile.intra.42.fr/users/{query}"
+    "base_url": "https://profile.intra.42.fr/",
+    "query_url": "https://profile.intra.42.fr/users/{search_query}"
   },
   "npm": {
-    "base": "https://www.npmjs.com/",
-    "query": "https://www.npmjs.com/search?q={query}"
+    "base_url": "https://www.npmjs.com/",
+    "query_url": "https://www.npmjs.com/search?q={search_query}"
   },
   "docs_programmers": {
-    "base": "https://devdocs.programmers.co.kr/",
-    "query": "https://devdocs.programmers.co.kr/{query}"
+    "base_url": "https://devdocs.programmers.co.kr/",
+    "query_url": "https://devdocs.programmers.co.kr/{search_query}"
   },
   "phind": {
-    "base": "https://phind.com/",
-    "query": "https://phind.com/search?q={query}"
+    "base_url": "https://phind.com/",
+    "query_url": "https://phind.com/search?q={search_query}"
   },
   "mdn": {
-    "base": "https://developer.mozilla.org/",
-    "query": "https://developer.mozilla.org/ko/search?q={query}"
+    "base_url": "https://developer.mozilla.org/",
+    "query_url": "https://developer.mozilla.org/ko/search?q={search_query}"
   },
   "mdn_http_Status": {
-    "base": "https://developer.mozilla.org/ko/docs/Web/HTTP/Status",
-    "query": "https://developer.mozilla.org/ko/docs/Web/HTTP/Status/{query}"
+    "base_url": "https://developer.mozilla.org/ko/docs/Web/HTTP/Status",
+    "query_url": "https://developer.mozilla.org/ko/docs/Web/HTTP/Status/{search_query}"
   },
   "coupang": {
-    "base": "https://www.coupang.com",
-    "query": "https://www.coupang.com/np/search?component=&q={query}"
+    "base_url": "https://www.coupang.com",
+    "query_url": "https://www.coupang.com/np/search?component=&q={search_query}"
   },
   "mvn": {
-    "base": "https://mvnrepository.com",
-    "query": "https://mvnrepository.com/search?q={query}"
+    "base_url": "https://mvnrepository.com",
+    "query_url": "https://mvnrepository.com/search?q={search_query}"
   },
   "gmail": {
-    "base": "https://gmail.com",
-    "query": "https://mail.google.com/mail/u/0/#search/{query}"
+    "base_url": "https://gmail.com",
+    "query_url": "https://mail.google.com/mail/u/0/#search/{search_query}"
   },
   "nmail": {
-    "base": "https://mail.naver.com",
-    "query": "https://mail.naver.com/v2/folders/-1/search?body={query}"
+    "base_url": "https://mail.naver.com",
+    "query_url": "https://mail.naver.com/v2/folders/-1/search?body={search_query}"
   },
   "saramin": {
-    "base": "https://saramin.co.kr",
-    "query": "https://www.saramin.co.kr/zf_user/search/company?searchword={query}"
+    "base_url": "https://saramin.co.kr",
+    "query_url": "https://www.saramin.co.kr/zf_user/search/company?searchword={search_query}"
   },
   "yes24": {
-    "base": "https://www.yes24.com",
-    "query": "https://www.yes24.com/product/search?query={query}"
+    "base_url": "https://www.yes24.com",
+    "query_url": "https://www.yes24.com/product/search?query={search_query}"
   },
   "blind": {
-    "base": "https://www.teamblind.com",
-    "query": "https://www.teamblind.com/kr/search/{query}"
+    "base_url": "https://www.teamblind.com",
+    "query_url": "https://www.teamblind.com/kr/search/{search_query}"
   },
   "boj_user": {
-    "base": "https://www.acmicpc.net",
-    "query": "https://www.acmicpc.net/user/{query}"
+    "base_url": "https://www.acmicpc.net",
+    "query_url": "https://www.acmicpc.net/user/{search_query}"
   },
   "boj_problem": {
-    "base": "https://www.acmicpc.net",
-    "query": "https://www.acmicpc.net/problem/{query}"
+    "base_url": "https://www.acmicpc.net",
+    "query_url": "https://www.acmicpc.net/problem/{search_query}"
   },
   "solved": {
-    "base": "https://solved.ac",
-    "query": "https://solved.ac/profile/{query}/solved"
+    "base_url": "https://solved.ac",
+    "query_url": "https://solved.ac/profile/{search_query}/solved"
   },
   "inflearn": {
-    "base": "https://www.inflearn.com/my/courses",
-    "query": "https://www.inflearn.com/my/courses"
+    "base_url": "https://www.inflearn.com/my/courses",
+    "query_url": "https://www.inflearn.com/my/courses"
   },
   "naver_shopping": {
-    "base": "https://shopping.naver.com/ns/home",
-    "query": "https://search.shopping.naver.com/ns/search?query={query}"
+    "base_url": "https://shopping.naver.com/ns/home",
+    "query_url": "https://search.shopping.naver.com/ns/search?query={search_query}"
   },
   "google_drive": {
-    "base": "https://drive.google.com/drive/my-drive",
-    "query": "https://drive.google.com/drive/my-drive"
+    "base_url": "https://drive.google.com/drive/my-drive",
+    "query_url": "https://drive.google.com/drive/my-drive"
   },
   "naver_mybox": {
-    "base": "https://mybox.naver.com",
-    "query": "https://mybox.naver.com/"
+    "base_url": "https://mybox.naver.com",
+    "query_url": "https://mybox.naver.com/"
   },
   "danawa": {
-    "base": "https://www.danawa.com",
-    "query": "https://search.danawa.com/dsearch.php?query={query}"
+    "base_url": "https://www.danawa.com",
+    "query_url": "https://search.danawa.com/dsearch.php?query={search_query}"
   },
   "convertio": {
-    "base": "https://convertio.co/kr",
-    "query": "https://convertio.co/kr/{query}"
+    "base_url": "https://convertio.co/kr",
+    "query_url": "https://convertio.co/kr/{search_query}"
   },
   "roadmap_sh": {
-    "base": "https://roadmap.sh",
-    "query": "https://roadmap.sh/{query}"
+    "base_url": "https://roadmap.sh",
+    "query_url": "https://roadmap.sh/{search_query}"
   },
   "ibm": {
-    "base": "https://www.ibm.com",
-    "query": "https://www.ibm.com/docs/ko/search/{query}"
+    "base_url": "https://www.ibm.com",
+    "query_url": "https://www.ibm.com/docs/ko/search/{search_query}"
   },
   "linkedin": {
-    "base": "https://www.linkedin.com",
-    "query": "https://www.linkedin.com/search/results/all/?keywords={query}"
+    "base_url": "https://www.linkedin.com",
+    "query_url": "https://www.linkedin.com/search/results/all/?keywords={search_query}"
   },
   "docker_hub": {
-    "base": "https://hub.docker.com/",
-    "query": "https://hub.docker.com/search?q={query}"
+    "base_url": "https://hub.docker.com/",
+    "query_url": "https://hub.docker.com/search?q={search_query}"
   },
   "docs_docker": {
-    "base": "https://docs.docker.com/reference",
-    "query": "https://docs.docker.com/reference"
+    "base_url": "https://docs.docker.com/reference",
+    "query_url": "https://docs.docker.com/reference"
   },
   "docs_python": {
-    "base": "https://docs.python.org/ko/3",
-    "query": "https://docs.python.org/ko/3/search.html?q={query}"
+    "base_url": "https://docs.python.org/ko/3",
+    "query_url": "https://docs.python.org/ko/3/search.html?q={search_query}"
   },
   "health": {
-    "base": "https://www.health.kr/main.asp",
-    "query": "https://www.health.kr/main.asp"
+    "base_url": "https://www.health.kr/main.asp",
+    "query_url": "https://www.health.kr/main.asp"
   },
   "rocketpunch": {
-    "base": "https://www.rocketpunch.com",
-    "query": "https://www.rocketpunch.com/search?keywords={query}"
+    "base_url": "https://www.rocketpunch.com",
+    "query_url": "https://www.rocketpunch.com/search?keywords={search_query}"
   },
   "programmers_lessons": {
-    "base": "https://programmers.co.kr/",
-    "query": "https://school.programmers.co.kr/learn/challenges?search={query}"
+    "base_url": "https://programmers.co.kr/",
+    "query_url": "https://school.programmers.co.kr/learn/challenges?search={search_query}"
   },
   "innoforest": {
-    "base": "https://www.innoforest.co.kr",
-    "query": "https://www.innoforest.co.kr/search?keyword={query}"
+    "base_url": "https://www.innoforest.co.kr",
+    "query_url": "https://www.innoforest.co.kr/search?keyword={search_query}"
   },
   "jwt": {
-    "base": "https://jwt.io",
-    "query": "https://jwt.io"
+    "base_url": "https://jwt.io",
+    "query_url": "https://jwt.io"
   },
   "docs_java": {
-    "base": "https://docs.oracle.com/en/java/javase",
-	"query":"https://docs.oracle.com/search/?q={query}&product=en%2Fjava%2Fjavase&category=en%2Fjava&cType=WM178711&lang=en"
+    "base_url": "https://docs.oracle.com/en/java/javase",
+    "query_url": "https://docs.oracle.com/search/?q={search_query}&product=en%2Fjava%2Fjavase&category=en%2Fjava&cType=WM178711&lang=en"
   },
   "docs_spring": {
-    "base": "https://spring.io/projects",
-    "query": "https://spring.io/projects"
+    "base_url": "https://spring.io/projects",
+    "query_url": "https://spring.io/projects"
   },
   "docs_spring_java": {
-    "base": "https://docs.spring.io/spring-framework/docs/current/javadoc-api/",
-    "query": "https://docs.spring.io/spring-framework/docs/current/javadoc-api/"
+    "base_url": "https://docs.spring.io/spring-framework/docs/current/javadoc-api/",
+    "query_url": "https://docs.spring.io/spring-framework/docs/current/javadoc-api/"
   },
   "docs_javadoc_io": {
-    "base": "https://javadoc.io/",
-    "query": "https://javadoc.io/"
+    "base_url": "https://javadoc.io/",
+    "query_url": "https://javadoc.io/"
   },
   "jobplanet": {
-    "base": "https://www.jobplanet.co.kr/",
-    "query": "https://www.jobplanet.co.kr/search?query={query}"
+    "base_url": "https://www.jobplanet.co.kr/",
+    "query_url": "https://www.jobplanet.co.kr/search?query={search_query}"
   },
   "nginx": {
-	  "base": "https://nginx.org/en/docs/",
-	  "query":"https://nginx.org/en/docs/"
+    "base_url": "https://nginx.org/en/docs/",
+    "query_url": "https://nginx.org/en/docs/"
   },
   "docs_mysql": {
-	  "base": "https://dev.mysql.com/doc/refman/8.0/en/",
-	  "query": "https://dev.mysql.com/doc/refman/8.0/en/"
+    "base_url": "https://dev.mysql.com/doc/refman/8.0/en/",
+    "query_url": "https://dev.mysql.com/doc/refman/8.0/en/"
   },
   "docs_sql": {
-	  "base": "https://www.sqltutorial.org/",
-	  "query": "https://www.sqltutorial.org/?s={query}"
+    "base_url": "https://www.sqltutorial.org/",
+    "query_url": "https://www.sqltutorial.org/?s={search_query}"
   },
   "fatsecret": {
-	  "base": "https://www.fatsecret.kr",
-	  "query": "https://www.fatsecret.kr/%EC%B9%BC%EB%A1%9C%EB%A6%AC-%EC%98%81%EC%96%91%EC%86%8C/search?q={query}"
+    "base_url": "https://www.fatsecret.kr",
+    "query_url": "https://www.fatsecret.kr/%EC%B9%BC%EB%A1%9C%EB%A6%AC-%EC%98%81%EC%96%91%EC%86%8C/search?q={search_query}"
   },
   "icon": {
-	  "base": "https://techicons.dev",
-	  "query": "https://techicons.dev/?search={query}"
+    "base_url": "https://techicons.dev",
+    "query_url": "https://techicons.dev/?search={search_query}"
   },
   "docs_node": {
-	  "base": "https://nodejs.org/docs/latest/api/documentation.html",
-	  "query": "https://nodejs.org/docs/latest/api/{query}.html"
+    "base_url": "https://nodejs.org/docs/latest/api/documentation.html",
+    "query_url": "https://nodejs.org/docs/latest/api/{search_query}.html"
   },
   "w3c": {
-	  "base": "https://www.w3schools.com",
-	  "query": "https://www.w3schools.com"
+    "base_url": "https://www.w3schools.com",
+    "query_url": "https://www.w3schools.com"
   },
   "gpt": {
-	  "base": "https://chatgpt.com/",
-	  "query": "https://chatgpt.com/"
+    "base_url": "https://chatgpt.com/",
+    "query_url": "https://chatgpt.com/"
   },
   "claude": {
-	  "base": "https://claude.ai/",
-	  "query": "https://claude.ai/"
+    "base_url": "https://claude.ai/",
+    "query_url": "https://claude.ai/"
   },
   "dropship": {
-	  "base": "https://g2sh.me/",
-	  "query": "https://g2sh.me/sondho/{query}"
+    "base_url": "https://g2sh.me/",
+    "query_url": "https://g2sh.me/sondho/{search_query}"
   },
   "zep": {
-	  "base": "https://zep.us/",
-	  "query": "https://zep.us/"
+    "base_url": "https://zep.us/",
+    "query_url": "https://zep.us/"
   },
   "docs_jakarta": {
-	  "base": "https://jakarta.ee/specifications/platform/10/apidocs/",
-	  "query": "https://www.eclipse.org/home/search/?q={query}"
+    "base_url": "https://jakarta.ee/specifications/platform/10/apidocs/",
+    "query_url": "https://www.eclipse.org/home/search/?q={search_query}"
   },
   "devdocs": {
-	  "base": "https://devdocs.io/",
-	  "query": "https://devdocs.io/{query}"
+    "base_url": "https://devdocs.io/",
+    "query_url": "https://devdocs.io/{search_query}"
   },
   "deepseek": {
-	  "base": "https://chat.deepseek.com/",
-	  "query": "https://chat.deepseek.com/"
+    "base_url": "https://chat.deepseek.com/",
+    "query_url": "https://chat.deepseek.com/"
   },
   "jobkorea": {
-	  "base": "https://www.jobkorea.co.kr/",
-	  "query": "https://www.jobkorea.co.kr/Search/?stext={query}"
+    "base_url": "https://www.jobkorea.co.kr/",
+    "query_url": "https://www.jobkorea.co.kr/Search/?stext={search_query}"
   },
   "biz_info": {
-	  "base": "https://www.nicebizinfo.com/cm/CM0100M001GE.nice",
-	  "query": "https://www.nicebizinfo.com/cm/CM0100M001GE.nice"
+    "base_url": "https://www.nicebizinfo.com/cm/CM0100M001GE.nice",
+    "query_url": "https://www.nicebizinfo.com/cm/CM0100M001GE.nice"
   },
   "papago": {
-    "base": "https://papago.naver.com/",
-    "query": "https://papago.naver.com/?sk=auto&tk=ko&hn=0&st={query}"
+    "base_url": "https://papago.naver.com/",
+    "query_url": "https://papago.naver.com/?sk=auto&tk=ko&hn=0&st={search_query}"
   },
   "instagram": {
-	"base": "https://www.instagram.com/",
-	"query": "https://www.instagram.com/{query}"
+    "base_url": "https://www.instagram.com/",
+    "query_url": "https://www.instagram.com/{search_query}"
   },
   "speller": {
-	"base": "https://www.saramin.co.kr/zf_user/tools/character-counter",
-	"query": "https://www.saramin.co.kr/zf_user/tools/character-counter"
+    "base_url": "https://www.saramin.co.kr/zf_user/tools/character-counter",
+    "query_url": "https://www.saramin.co.kr/zf_user/tools/character-counter"
   }
 }
